@@ -45,7 +45,7 @@ demand = np.array([demand_data[period]
 max_chargers_per_region = 0
 max_added_chargers = 100
 max_supply_per_region = 100000
-min_avg_distance_from_cc = 250
+min_avg_distance_from_cc = 5000
 POI_importance = 0
 time_limit = 60
 MIP_gap = 0.05
@@ -94,7 +94,7 @@ capacity_from_region = [m.addMVar((n_regions))
 capacity_to_neighbors = [m.addMVar((n_regions, n_regions))
                          for _ in range(n_periods)]
 
-avg_distance_from_cc = m.addMVar(n_periods)
+# avg_distance_from_cc = m.addMVar(n_periods)
 print('2')
 for speed in range(len(charging_capacity.keys())):
     for i in range(n_periods-1):
@@ -118,10 +118,10 @@ for i in range(n_periods):
     m.addConstr(total_chargers_added_at_region[i] == sum(
         chargers_added_at_region[i]))
 
-    m.addConstr(avg_distance_from_cc[i] == gp.quicksum(
-        [total_chargers_added_at_region[i][j] * region_distance_from_cc[j] for j in range(n_regions)])/n_regions)
+    m.addConstr(min_avg_distance_from_cc*sum(total_chargers_added_at_region[i]) <= gp.quicksum(
+        [total_chargers_added_at_region[i][j] * region_distance_from_cc[j] for j in range(n_regions)]))
 
-    m.addConstr(avg_distance_from_cc[i] >= min_avg_distance_from_cc)
+    # m.addConstr(avg_distance_from_cc[i] >= min_avg_distance_from_cc)
     for j in range(n_regions):
         # CONSTRAINT: Maximum number of charging stations in a single region
         if (max_chargers_per_region > 0):
@@ -180,9 +180,10 @@ for i in range(n_periods):
 print('4')
 m.setObjective(gp.quicksum(norms), gp.GRB.MINIMIZE)
 
-global_max_supply: float
-global_max_demand: float
-global_max: float
+# defaults, supposed to be changed by run_model()
+global_max_supply = 100000.0
+global_max_demand = 100000.0
+global_max = 100000.0
 
 
 def run_model():
@@ -201,12 +202,15 @@ def run_model():
 
 
 def print_results():
+    avg_distance_from_cc = [sum(
+        [total_chargers_added_at_region[i][j].X * region_distance_from_cc[j] for j in range(n_regions)])/sum(total_chargers_added_at_region[i].X) for i in range(n_periods)]
     print('printing')
     with open("results.txt", "w") as f:
         sys.stdout = f
         for i in range(n_periods):
             print('Year: {}'.format(i))
-            print(avg_distance_from_cc[i].X)
+            print(
+                f'Avg distance of added chargers from city centre: {avg_distance_from_cc[i]}')
             if i >= 1:
                 for speed_idx, speed in enumerate(charging_capacity.keys()):
                     print(
