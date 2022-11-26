@@ -45,8 +45,10 @@ demand = np.array([demand_data[period]
 max_chargers_per_region = 0
 max_added_chargers = 100
 max_supply_per_region = 100000
-min_avg_distance_from_cc = 5000
+min_avg_distance_from_cc = 500
 POI_importance = 0
+rapid_supply_limit = 0.5
+
 time_limit = 60
 MIP_gap = 0.05
 
@@ -59,7 +61,6 @@ def get_neighbors(region, data):
     return [int(x) for x in data['NEIGHBORS'][region].strip('][').split(', ')]
 
 
-print('1')
 # supply[i][j] is same as demand, but represents supply
 supply = m.addMVar(demand.shape)
 
@@ -74,10 +75,12 @@ chargers_added_at_region = [m.addMVar((len(charging_capacity.keys()), n_regions)
 number_of_chargers_added_year = m.addMVar(
     (n_periods, len(charging_capacity.keys())), vtype=gp.GRB.INTEGER)
 
-chargers_at_region = [m.addMVar((len(charging_capacity.keys()), n_regions), vtype=gp.GRB.INTEGER)
-                      for _ in range(n_periods)]
 # a ['slow', 'fast', 'rapid'] shape for each region, indicating how much energy
 # is supplied by a specific source to each region
+chargers_at_region = [m.addMVar((len(charging_capacity.keys()), n_regions), vtype=gp.GRB.INTEGER)
+                      for _ in range(n_periods)]
+
+# sum over the previous variable's speeds, not including/including the pre-existing chargers respectively
 total_chargers_at_region = m.addMVar(supply.shape, vtype=gp.GRB.INTEGER)
 total_chargers_added_at_region = m.addMVar(supply.shape, vtype=gp.GRB.INTEGER)
 
@@ -94,8 +97,6 @@ capacity_from_region = [m.addMVar((n_regions))
 capacity_to_neighbors = [m.addMVar((n_regions, n_regions))
                          for _ in range(n_periods)]
 
-# avg_distance_from_cc = m.addMVar(n_periods)
-print('2')
 for speed in range(len(charging_capacity.keys())):
     for i in range(n_periods-1):
         for j in range(n_regions):
@@ -159,7 +160,8 @@ for i in range(n_periods):
     for j in range(len(charging_capacity.keys())):
         m.addConstr(number_of_chargers_added_year[i][j] == np.array([np.array(
             [chargers_added_at_region[i][speed_idx][j] for j in range(n_regions)]).sum() for speed_idx in range(len(charging_capacity.keys()))][j]))
-print('3')
+
+
 # max chargers at the end.
 if max_added_chargers >= 0:
     m.addConstr(sum(number_of_chargers_added_year[3]) <=
@@ -172,12 +174,13 @@ diff = m.addMVar(supply.shape, ub=gp.GRB.INFINITY, lb=-gp.GRB.INFINITY)
 # index norms : norms[i] is the norm of the difference between supply and demand on year i
 norms = m.addMVar(n_periods)
 for i in range(n_periods):
+    m.addConstr(sum(capacities[i][2]) <=
+                rapid_supply_limit*sum(supply[i]))
     m.addConstr(diff[i] == supply[i]-demand[i])
     m.addConstr(norms[i] == gp.norm(diff[i], 1))
     for j in interest_points["grid number"]:
         m.addConstr(sum([supply[i][j] for j in interest_points["grid number"]]) >= POI_importance*sum([demand[i][j]
                     for j in interest_points["grid number"]]))
-print('4')
 m.setObjective(gp.quicksum(norms), gp.GRB.MINIMIZE)
 
 # defaults, supposed to be changed by run_model()
@@ -190,6 +193,7 @@ def run_model():
     m.setParam("MIPGap", MIP_gap)
     m.setParam("TimeLimit", time_limit)
     m.optimize()
+
     global global_max_supply
     global_max_supply = max(
         [max([supply[i][j].X for j in range(n_regions)]) for i in range(n_periods)])
@@ -204,7 +208,6 @@ def run_model():
 def print_results():
     avg_distance_from_cc = [sum(
         [total_chargers_added_at_region[i][j].X * region_distance_from_cc[j] for j in range(n_regions)])/sum(total_chargers_added_at_region[i].X) for i in range(n_periods)]
-    print('printing')
     with open("results.txt", "w") as f:
         sys.stdout = f
         for i in range(n_periods):
@@ -237,7 +240,6 @@ def print_results():
         print(m.getObjective().getValue())
 
         sys.stdout = sys.__stdout__
-        print('done printing')
 
 
 def get_supply_diff_dataframe():
