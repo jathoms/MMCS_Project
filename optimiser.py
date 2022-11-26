@@ -175,7 +175,8 @@ for i in range(n_periods):
     m.addConstr(diff[i] == supply[i]-demand[i])
     m.addConstr(norms[i] == gp.norm(diff[i], 1))
     for j in interest_points["grid number"]:
-        m.addConstr(supply[i][j] >= POI_importance*demand[i][j])
+        m.addConstr(sum([supply[i][j] for j in interest_points["grid number"]]) >= POI_importance*sum([demand[i][j]
+                    for j in interest_points["grid number"]]))
 print('4')
 m.setObjective(gp.quicksum(norms), gp.GRB.MINIMIZE)
 
