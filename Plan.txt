@@ -221,7 +221,9 @@ Checking row idx 306
 -0.0 -0.0 -0.0
 Region 106
 Checking row idx 37
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 37 (parking)
+-0.0 0.0 -0.0
 Region 107
 Checking row idx 36
 -0.0 -0.0 -0.0
@@ -272,21 +274,23 @@ Checking row idx 87
 Region 118
 Region 119
 Checking row idx 244
--0.0 4.0 -0.0
+-0.0 5.0 -0.0
 Fast: 244 (parking)
--0.0 3.0 -0.0
+-0.0 4.0 -0.0
 Checking row idx 266
--0.0 3.0 -0.0
+-0.0 4.0 -0.0
 Fast: 266 (fuel)
 Checking row idx 268
--0.0 2.0 -0.0
+-0.0 3.0 -0.0
 Fast: 268 (parking)
--0.0 1.0 -0.0
+-0.0 2.0 -0.0
 Checking row idx 270
--0.0 1.0 -0.0
+-0.0 2.0 -0.0
 Fast: 270 (parking)
--0.0 0.0 -0.0
+-0.0 1.0 -0.0
 Checking row idx 307
+-0.0 1.0 -0.0
+Fast: 307 (parking)
 -0.0 0.0 -0.0
 Region 120
 Region 121
@@ -345,9 +349,13 @@ Checking row idx 174
 -0.0 -0.0 -0.0
 Region 145
 Checking row idx 8
--0.0 -0.0 -0.0
+1.0 1.0 -0.0
+Slow: 8 (parking)
+0.0 1.0 -0.0
 Checking row idx 46
--0.0 -0.0 -0.0
+0.0 1.0 -0.0
+Fast: 46 (parking)
+0.0 0.0 -0.0
 Region 146
 Checking row idx 134
 -0.0 -0.0 -0.0
@@ -361,10 +369,14 @@ Checking row idx 267
 -0.0 -0.0 -0.0
 Region 147
 Checking row idx 161
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 161 (parking)
+-0.0 0.0 -0.0
 Region 148
 Checking row idx 235
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 235 (parking)
+-0.0 0.0 -0.0
 Region 149
 Checking row idx 147
 -0.0 1.0 -0.0
@@ -389,16 +401,16 @@ Checking row idx 180
 -0.0 -0.0 -0.0
 Region 161
 Checking row idx 179
--0.0 1.0 -0.0
-Fast: 179 (parking)
--0.0 0.0 -0.0
+-0.0 -0.0 -0.0
 Checking row idx 181
--0.0 0.0 -0.0
+-0.0 -0.0 -0.0
 Checking row idx 182
--0.0 0.0 -0.0
+-0.0 -0.0 -0.0
 Region 162
 Checking row idx 191
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 191 (parking)
+-0.0 0.0 -0.0
 Region 163
 Region 164
 Checking row idx 237
@@ -429,17 +441,29 @@ Region 173
 Region 174
 Region 175
 Checking row idx 284
--0.0 -0.0 -0.0
+-0.0 6.0 -0.0
+Fast: 284 (parking)
+-0.0 5.0 -0.0
 Checking row idx 285
--0.0 -0.0 -0.0
+-0.0 5.0 -0.0
+Fast: 285 (parking)
+-0.0 4.0 -0.0
 Checking row idx 286
--0.0 -0.0 -0.0
+-0.0 4.0 -0.0
+Fast: 286 (parking)
+-0.0 3.0 -0.0
 Checking row idx 287
--0.0 -0.0 -0.0
+-0.0 3.0 -0.0
+Fast: 287 (parking)
+-0.0 2.0 -0.0
 Checking row idx 288
--0.0 -0.0 -0.0
+-0.0 2.0 -0.0
+Fast: 288 (parking)
+-0.0 1.0 -0.0
 Checking row idx 289
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 289 (parking)
+-0.0 0.0 -0.0
 Region 176
 Checking row idx 6
 -0.0 -0.0 -0.0
@@ -472,9 +496,13 @@ Region 182
 Region 183
 Region 184
 Checking row idx 34
--0.0 -0.0 -0.0
+-0.0 2.0 -0.0
+Fast: 34 (parking)
+-0.0 1.0 -0.0
 Checking row idx 97
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 97 (parking)
+-0.0 0.0 -0.0
 Region 185
 Checking row idx 79
 -0.0 -0.0 -0.0
@@ -950,7 +978,9 @@ Region 340
 Region 341
 Region 342
 Checking row idx 135
--0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 135 (parking)
+-0.0 0.0 -0.0
 Region 343
 Checking row idx 160
 -0.0 -0.0 -0.0
@@ -975,28 +1005,30 @@ Region 353
 Region 354
 Region 355
 Checking row idx 73
--0.0 4.0 -0.0
+-0.0 5.0 -0.0
 Fast: 73 (parking)
--0.0 3.0 -0.0
+-0.0 4.0 -0.0
 Checking row idx 137
--0.0 3.0 -0.0
+-0.0 4.0 -0.0
 Fast: 137 (parking)
--0.0 2.0 -0.0
+-0.0 3.0 -0.0
 Checking row idx 138
--0.0 2.0 -0.0
+-0.0 3.0 -0.0
 Fast: 138 (parking)
--0.0 1.0 -0.0
+-0.0 2.0 -0.0
 Checking row idx 140
--0.0 1.0 -0.0
+-0.0 2.0 -0.0
 Fast: 140 (parking)
--0.0 0.0 -0.0
+-0.0 1.0 -0.0
 Checking row idx 186
+-0.0 1.0 -0.0
+Fast: 186 (parking)
 -0.0 0.0 -0.0
 Region 356
 Checking row idx 136
--0.0 1.0 -0.0
-Fast: 136 (parking)
--0.0 0.0 -0.0
+1.0 -0.0 -0.0
+Slow: 136 (parking)
+0.0 -0.0 -0.0
 Region 357
 Region 358
 Region 359
@@ -1011,21 +1043,27 @@ Region 367
 Region 368
 Region 369
 Checking row idx 25
-1.0 -0.0 -0.0
-Slow: 25 (parking)
-0.0 -0.0 -0.0
+-0.0 4.0 -0.0
+Fast: 25 (parking)
+-0.0 3.0 -0.0
 Checking row idx 26
-0.0 -0.0 -0.0
+-0.0 3.0 -0.0
+Fast: 26 (parking)
+-0.0 2.0 -0.0
 Checking row idx 139
-0.0 -0.0 -0.0
+-0.0 2.0 -0.0
+Fast: 139 (parking)
+-0.0 1.0 -0.0
 Checking row idx 145
-0.0 -0.0 -0.0
+-0.0 1.0 -0.0
+Fast: 145 (parking)
+-0.0 0.0 -0.0
 Checking row idx 153
-0.0 -0.0 -0.0
+-0.0 0.0 -0.0
 Checking row idx 154
-0.0 -0.0 -0.0
+-0.0 0.0 -0.0
 Checking row idx 294
-0.0 -0.0 -0.0
+-0.0 0.0 -0.0
 Region 370
 Region 371
 Region 372
@@ -1317,8 +1355,7 @@ Checking row idx 309
 0.0 0.0 0.0
 Region 104
 Checking row idx 152
-0.0 1.0 0.0
-Fast: 152 (fuel)
+0.0 0.0 0.0
 Checking row idx 271
 0.0 0.0 0.0
 Checking row idx 305
@@ -1414,20 +1451,12 @@ Region 132
 Region 133
 Region 134
 Checking row idx 148
-0.0 4.0 0.0
-Fast: 148 (parking)
-0.0 3.0 0.0
+0.0 0.0 0.0
 Checking row idx 259
-0.0 3.0 0.0
-Fast: 259 (parking)
-0.0 2.0 0.0
+0.0 0.0 0.0
 Checking row idx 298
-0.0 2.0 0.0
-Fast: 298 (parking)
-0.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 299
-0.0 1.0 0.0
-Fast: 299 (parking)
 0.0 0.0 0.0
 Region 135
 Region 136
@@ -1447,10 +1476,6 @@ Checking row idx 174
 0.0 0.0 0.0
 Region 145
 Checking row idx 8
-0.0 1.0 0.0
-Fast: 8 (parking)
-0.0 0.0 0.0
-Checking row idx 46
 0.0 0.0 0.0
 Region 146
 Checking row idx 134
@@ -1492,6 +1517,10 @@ Checking row idx 180
 Region 161
 Checking row idx 179
 0.0 0.0 0.0
+Checking row idx 181
+0.0 0.0 0.0
+Checking row idx 182
+0.0 0.0 0.0
 Region 162
 Checking row idx 191
 0.0 0.0 0.0
@@ -1526,16 +1555,6 @@ Region 174
 Region 175
 Checking row idx 284
 0.0 0.0 0.0
-Checking row idx 285
-0.0 0.0 0.0
-Checking row idx 286
-0.0 0.0 0.0
-Checking row idx 287
-0.0 0.0 0.0
-Checking row idx 288
-0.0 0.0 0.0
-Checking row idx 289
-0.0 0.0 0.0
 Region 176
 Checking row idx 6
 0.0 0.0 0.0
@@ -1568,8 +1587,6 @@ Region 182
 Region 183
 Region 184
 Checking row idx 34
-0.0 0.0 0.0
-Checking row idx 97
 0.0 0.0 0.0
 Region 185
 Checking row idx 79
@@ -2381,7 +2398,16 @@ Checking row idx 309
 0.0 0.0 0.0
 Region 104
 Checking row idx 152
-0.0 1.0 0.0
+2.0 1.0 0.0
+Fast: 152 (fuel)
+Checking row idx 271
+2.0 0.0 0.0
+Slow: 271 (parking)
+1.0 0.0 0.0
+Checking row idx 305
+1.0 0.0 0.0
+Slow: 305 (parking)
+0.0 0.0 0.0
 Region 105
 Checking row idx 269
 0.0 0.0 0.0
@@ -2389,8 +2415,6 @@ Checking row idx 306
 0.0 0.0 0.0
 Region 106
 Checking row idx 37
-1.0 0.0 0.0
-Slow: 37 (parking)
 0.0 0.0 0.0
 Region 107
 Checking row idx 36
@@ -2446,14 +2470,20 @@ Checking row idx 244
 Region 120
 Region 121
 Checking row idx 40
-0.0 0.0 1.0
-Rapid: 40 (parking)
-0.0 0.0 0.0
+4.0 0.0 0.0
+Slow: 40 (parking)
+3.0 0.0 0.0
 Checking row idx 43
-0.0 0.0 0.0
+3.0 0.0 0.0
+Slow: 43 (parking)
+2.0 0.0 0.0
 Checking row idx 241
-0.0 0.0 0.0
+2.0 0.0 0.0
+Slow: 241 (parking)
+1.0 0.0 0.0
 Checking row idx 242
+1.0 0.0 0.0
+Slow: 242 (parking)
 0.0 0.0 0.0
 Region 122
 Region 123
@@ -2478,6 +2508,12 @@ Region 133
 Region 134
 Checking row idx 148
 0.0 0.0 0.0
+Checking row idx 259
+0.0 0.0 0.0
+Checking row idx 298
+0.0 0.0 0.0
+Checking row idx 299
+0.0 0.0 0.0
 Region 135
 Region 136
 Region 137
@@ -2499,6 +2535,8 @@ Checking row idx 8
 0.0 0.0 0.0
 Region 146
 Checking row idx 134
+0.0 1.0 0.0
+Fast: 134 (parking)
 0.0 0.0 0.0
 Checking row idx 205
 0.0 0.0 0.0
@@ -2525,8 +2563,6 @@ Region 154
 Region 155
 Region 156
 Checking row idx 95
-1.0 0.0 0.0
-Slow: 95 (parking)
 0.0 0.0 0.0
 Region 157
 Checking row idx 149
@@ -2538,6 +2574,12 @@ Checking row idx 180
 0.0 0.0 0.0
 Region 161
 Checking row idx 179
+0.0 1.0 0.0
+Fast: 179 (parking)
+0.0 0.0 0.0
+Checking row idx 181
+0.0 0.0 0.0
+Checking row idx 182
 0.0 0.0 0.0
 Region 162
 Checking row idx 191
@@ -2545,8 +2587,6 @@ Checking row idx 191
 Region 163
 Region 164
 Checking row idx 237
-1.0 0.0 0.0
-Slow: 237 (parking)
 0.0 0.0 0.0
 Region 165
 Region 166
@@ -2556,12 +2596,8 @@ Region 169
 Region 170
 Region 171
 Checking row idx 12
-0.0 2.0 0.0
-Fast: 12 (parking)
-0.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 178
-0.0 1.0 0.0
-Fast: 178 (parking)
 0.0 0.0 0.0
 Checking row idx 188
 0.0 0.0 0.0
@@ -2569,29 +2605,21 @@ Checking row idx 189
 0.0 0.0 0.0
 Region 172
 Checking row idx 232
-0.0 0.0 0.0
+3.0 0.0 0.0
+Slow: 232 (parking)
+2.0 0.0 0.0
 Checking row idx 295
-0.0 0.0 0.0
+2.0 0.0 0.0
+Slow: 295 (parking)
+1.0 0.0 0.0
 Checking row idx 296
+1.0 0.0 0.0
+Slow: 296 (parking)
 0.0 0.0 0.0
 Region 173
 Region 174
 Region 175
 Checking row idx 284
-2.0 0.0 0.0
-Slow: 284 (parking)
-1.0 0.0 0.0
-Checking row idx 285
-1.0 0.0 0.0
-Slow: 285 (parking)
-0.0 0.0 0.0
-Checking row idx 286
-0.0 0.0 0.0
-Checking row idx 287
-0.0 0.0 0.0
-Checking row idx 288
-0.0 0.0 0.0
-Checking row idx 289
 0.0 0.0 0.0
 Region 176
 Checking row idx 6
@@ -2626,51 +2654,41 @@ Region 183
 Region 184
 Checking row idx 34
 0.0 0.0 0.0
-Checking row idx 97
-0.0 0.0 0.0
 Region 185
 Checking row idx 79
-0.0 7.0 0.0
-Fast: 79 (parking)
-0.0 6.0 0.0
+3.0 3.0 0.0
+Slow: 79 (parking)
+2.0 3.0 0.0
 Checking row idx 80
-0.0 6.0 0.0
-Fast: 80 (parking)
-0.0 5.0 0.0
+2.0 3.0 0.0
+Slow: 80 (parking)
+1.0 3.0 0.0
 Checking row idx 130
-0.0 5.0 0.0
-Fast: 130 (parking)
-0.0 4.0 0.0
+1.0 3.0 0.0
+Slow: 130 (parking)
+0.0 3.0 0.0
 Checking row idx 133
-0.0 4.0 0.0
+0.0 3.0 0.0
 Fast: 133 (parking)
-0.0 3.0 0.0
+0.0 2.0 0.0
 Checking row idx 146
-0.0 3.0 0.0
+0.0 2.0 0.0
 Fast: 146 (parking)
-0.0 2.0 0.0
+0.0 1.0 0.0
 Checking row idx 185
-0.0 2.0 0.0
+0.0 1.0 0.0
 Fast: 185 (parking)
-0.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 258
-0.0 1.0 0.0
-Fast: 258 (parking)
 0.0 0.0 0.0
 Checking row idx 323
 0.0 0.0 0.0
 Region 186
 Checking row idx 15
-0.0 3.0 0.0
-Fast: 15 (parking)
-0.0 2.0 0.0
+0.0 0.0 0.0
 Checking row idx 216
-0.0 2.0 0.0
-Fast: 216 (parking)
-0.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 217
-0.0 1.0 0.0
-Fast: 217 (parking)
 0.0 0.0 0.0
 Checking row idx 218
 0.0 0.0 0.0
@@ -2712,6 +2730,8 @@ Checking row idx 229
 0.0 0.0 0.0
 Region 189
 Checking row idx 151
+1.0 0.0 0.0
+Slow: 151 (parking)
 0.0 0.0 0.0
 Region 190
 Region 191
@@ -2735,8 +2755,11 @@ Region 196
 Region 197
 Region 198
 Checking row idx 5
-0.0 0.0 0.0
+0.0 2.0 0.0
+Fast: 5 (fuel)
 Checking row idx 98
+0.0 1.0 0.0
+Fast: 98 (parking)
 0.0 0.0 0.0
 Region 199
 Checking row idx 29
@@ -2767,19 +2790,31 @@ Checking row idx 131
 0.0 0.0 0.0
 Region 200
 Checking row idx 4
-0.0 1.0 0.0
+0.0 7.0 0.0
 Fast: 4 (fuel)
 Checking row idx 14
-0.0 0.0 0.0
+0.0 6.0 0.0
+Fast: 14 (parking)
+0.0 5.0 0.0
 Checking row idx 17
-0.0 0.0 0.0
+0.0 5.0 0.0
+Fast: 17 (parking)
+0.0 4.0 0.0
 Checking row idx 33
-0.0 0.0 0.0
+0.0 4.0 0.0
+Fast: 33 (parking)
+0.0 3.0 0.0
 Checking row idx 63
-0.0 0.0 0.0
+0.0 3.0 0.0
+Fast: 63 (parking)
+0.0 2.0 0.0
 Checking row idx 64
-0.0 0.0 0.0
+0.0 2.0 0.0
+Fast: 64 (parking)
+0.0 1.0 0.0
 Checking row idx 66
+0.0 1.0 0.0
+Fast: 66 (parking)
 0.0 0.0 0.0
 Checking row idx 103
 0.0 0.0 0.0
@@ -2812,6 +2847,8 @@ Checking row idx 238
 0.0 0.0 0.0
 Region 202
 Checking row idx 164
+0.0 1.0 0.0
+Fast: 164 (parking)
 0.0 0.0 0.0
 Checking row idx 165
 0.0 0.0 0.0
@@ -2839,32 +2876,18 @@ Region 211
 Region 212
 Region 213
 Checking row idx 49
-6.0 1.0 0.0
-Slow: 49 (parking)
-5.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 67
-5.0 1.0 0.0
-Slow: 67 (parking)
-4.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 82
-4.0 1.0 0.0
-Slow: 82 (parking)
-3.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 118
-3.0 1.0 0.0
-Slow: 118 (parking)
-2.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 121
-2.0 1.0 0.0
-Slow: 121 (parking)
-1.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 163
-1.0 1.0 0.0
-Slow: 163 (parking)
-0.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 204
-0.0 1.0 0.0
-Fast: 204 (parking)
 0.0 0.0 0.0
 Region 214
 Checking row idx 10
@@ -3163,7 +3186,7 @@ Region 353
 Region 354
 Region 355
 Checking row idx 73
-0.0 0.0 1.0
+0.0 0.0 0.0
 Region 356
 Checking row idx 136
 0.0 0.0 0.0
@@ -3181,7 +3204,7 @@ Region 367
 Region 368
 Region 369
 Checking row idx 25
-0.0 0.0 0.0
+0.0 3.0 0.0
 Region 370
 Region 371
 Region 372
@@ -3196,6 +3219,8 @@ Region 380
 Region 381
 Region 382
 Checking row idx 69
+0.0 1.0 0.0
+Fast: 69 (parking)
 0.0 0.0 0.0
 Region 383
 Region 384
@@ -3473,7 +3498,7 @@ Checking row idx 309
 0.0 0.0 0.0
 Region 104
 Checking row idx 152
-0.0 1.0 0.0
+0.0 0.0 0.0
 Region 105
 Checking row idx 269
 0.0 0.0 0.0
@@ -3484,12 +3509,12 @@ Checking row idx 37
 0.0 0.0 0.0
 Region 107
 Checking row idx 36
-2.0 2.0 0.0
-Slow: 36 (parking)
-1.0 2.0 0.0
+0.0 4.0 0.0
+Fast: 36 (parking)
+0.0 3.0 0.0
 Checking row idx 38
-1.0 2.0 0.0
-Slow: 38 (parking)
+0.0 3.0 0.0
+Fast: 38 (parking)
 0.0 2.0 0.0
 Checking row idx 39
 0.0 2.0 0.0
@@ -3540,11 +3565,11 @@ Checking row idx 87
 Region 118
 Region 119
 Checking row idx 244
-0.0 1.0 0.0
+0.0 0.0 0.0
 Region 120
 Region 121
 Checking row idx 40
-3.0 0.0 0.0
+0.0 0.0 0.0
 Region 122
 Region 123
 Checking row idx 41
@@ -3567,6 +3592,20 @@ Region 132
 Region 133
 Region 134
 Checking row idx 148
+0.0 4.0 0.0
+Fast: 148 (parking)
+0.0 3.0 0.0
+Checking row idx 259
+0.0 3.0 0.0
+Fast: 259 (parking)
+0.0 2.0 0.0
+Checking row idx 298
+0.0 2.0 0.0
+Fast: 298 (parking)
+0.0 1.0 0.0
+Checking row idx 299
+0.0 1.0 0.0
+Fast: 299 (parking)
 0.0 0.0 0.0
 Region 135
 Region 136
@@ -3586,33 +3625,15 @@ Checking row idx 174
 0.0 0.0 0.0
 Region 145
 Checking row idx 8
-0.0 1.0 0.0
+0.0 0.0 0.0
 Region 146
 Checking row idx 134
-0.0 3.0 0.0
-Fast: 134 (parking)
-0.0 2.0 0.0
-Checking row idx 205
-0.0 2.0 0.0
-Fast: 205 (parking)
-0.0 1.0 0.0
-Checking row idx 206
-0.0 1.0 0.0
-Fast: 206 (parking)
-0.0 0.0 0.0
-Checking row idx 249
-0.0 0.0 0.0
-Checking row idx 267
-0.0 0.0 0.0
+0.0 4.0 0.0
 Region 147
 Checking row idx 161
-0.0 1.0 0.0
-Fast: 161 (parking)
 0.0 0.0 0.0
 Region 148
 Checking row idx 235
-0.0 1.0 0.0
-Fast: 235 (parking)
 0.0 0.0 0.0
 Region 149
 Checking row idx 147
@@ -3625,6 +3646,8 @@ Region 154
 Region 155
 Region 156
 Checking row idx 95
+0.0 1.0 0.0
+Fast: 95 (parking)
 0.0 0.0 0.0
 Region 157
 Checking row idx 149
@@ -3638,13 +3661,15 @@ Checking row idx 180
 0.0 0.0 0.0
 Region 161
 Checking row idx 179
-2.0 0.0 0.0
+0.0 2.0 0.0
 Region 162
 Checking row idx 191
 0.0 0.0 0.0
 Region 163
 Region 164
 Checking row idx 237
+0.0 1.0 0.0
+Fast: 237 (parking)
 0.0 0.0 0.0
 Region 165
 Region 166
@@ -3654,19 +3679,21 @@ Region 169
 Region 170
 Region 171
 Checking row idx 12
-0.0 2.0 0.0
+0.0 0.0 0.0
+Checking row idx 178
+0.0 0.0 0.0
+Checking row idx 188
+0.0 0.0 0.0
+Checking row idx 189
+0.0 0.0 0.0
 Region 172
 Checking row idx 232
-0.0 0.0 0.0
-Checking row idx 295
-0.0 0.0 0.0
-Checking row idx 296
 0.0 0.0 0.0
 Region 173
 Region 174
 Region 175
 Checking row idx 284
-4.0 0.0 0.0
+0.0 0.0 0.0
 Region 176
 Checking row idx 6
 0.0 0.0 0.0
@@ -3688,6 +3715,8 @@ Checking row idx 126
 0.0 0.0 0.0
 Region 177
 Checking row idx 169
+0.0 1.0 0.0
+Fast: 169 (parking)
 0.0 0.0 0.0
 Region 178
 Checking row idx 291
@@ -3699,18 +3728,40 @@ Region 182
 Region 183
 Region 184
 Checking row idx 34
-0.0 0.0 2.0
-Rapid: 34 (parking)
-0.0 0.0 1.0
-Checking row idx 97
-0.0 0.0 1.0
-Rapid: 97 (parking)
 0.0 0.0 0.0
 Region 185
 Checking row idx 79
-0.0 0.0 0.0
+0.0 1.0 0.0
 Region 186
 Checking row idx 15
+0.0 0.0 0.0
+Checking row idx 216
+0.0 0.0 0.0
+Checking row idx 217
+0.0 0.0 0.0
+Checking row idx 218
+0.0 0.0 0.0
+Checking row idx 219
+0.0 0.0 0.0
+Checking row idx 220
+0.0 0.0 0.0
+Checking row idx 221
+0.0 0.0 0.0
+Checking row idx 222
+0.0 0.0 0.0
+Checking row idx 223
+0.0 0.0 0.0
+Checking row idx 224
+0.0 0.0 0.0
+Checking row idx 225
+0.0 0.0 0.0
+Checking row idx 226
+0.0 0.0 0.0
+Checking row idx 227
+0.0 0.0 0.0
+Checking row idx 230
+0.0 0.0 0.0
+Checking row idx 231
 0.0 0.0 0.0
 Region 187
 Checking row idx 150
@@ -3723,8 +3774,12 @@ Checking row idx 257
 0.0 0.0 0.0
 Region 188
 Checking row idx 45
-0.0 0.0 0.0
+2.0 0.0 0.0
+Slow: 45 (parking)
+1.0 0.0 0.0
 Checking row idx 229
+1.0 0.0 0.0
+Slow: 229 (parking)
 0.0 0.0 0.0
 Region 189
 Checking row idx 151
@@ -3751,8 +3806,6 @@ Region 196
 Region 197
 Region 198
 Checking row idx 5
-0.0 0.0 0.0
-Checking row idx 98
 0.0 0.0 0.0
 Region 199
 Checking row idx 29
@@ -3786,24 +3839,14 @@ Checking row idx 4
 0.0 0.0 0.0
 Region 201
 Checking row idx 75
-0.0 3.0 0.0
-Fast: 75 (parking)
-0.0 2.0 0.0
+0.0 0.0 0.0
 Checking row idx 166
-0.0 2.0 0.0
-Fast: 166 (parking)
-0.0 1.0 0.0
+0.0 0.0 0.0
 Checking row idx 238
-0.0 1.0 0.0
-Fast: 238 (parking)
 0.0 0.0 0.0
 Region 202
 Checking row idx 164
-0.0 0.0 0.0
-Checking row idx 165
-0.0 0.0 0.0
-Checking row idx 173
-0.0 0.0 0.0
+0.0 2.0 0.0
 Region 203
 Checking row idx 92
 0.0 0.0 0.0
@@ -3827,42 +3870,42 @@ Region 212
 Region 213
 Checking row idx 49
 0.0 0.0 0.0
+Checking row idx 67
+0.0 0.0 0.0
+Checking row idx 82
+0.0 0.0 0.0
+Checking row idx 118
+0.0 0.0 0.0
+Checking row idx 121
+0.0 0.0 0.0
+Checking row idx 163
+0.0 0.0 0.0
+Checking row idx 204
+0.0 0.0 0.0
 Region 214
 Checking row idx 10
-9.0 0.0 0.0
-Slow: 10 (parking)
-8.0 0.0 0.0
+0.0 0.0 3.0
+Rapid: 10 (parking)
+0.0 0.0 2.0
 Checking row idx 16
-8.0 0.0 0.0
-Slow: 16 (parking)
-7.0 0.0 0.0
+0.0 0.0 2.0
+Rapid: 16 (parking)
+0.0 0.0 1.0
 Checking row idx 30
-7.0 0.0 0.0
-Slow: 30 (parking)
-6.0 0.0 0.0
+0.0 0.0 1.0
+Rapid: 30 (parking)
+0.0 0.0 0.0
 Checking row idx 32
-6.0 0.0 0.0
-Slow: 32 (parking)
-5.0 0.0 0.0
+0.0 0.0 0.0
 Checking row idx 68
-5.0 0.0 0.0
-Slow: 68 (parking)
-4.0 0.0 0.0
+0.0 0.0 0.0
 Checking row idx 129
-4.0 0.0 0.0
-Slow: 129 (parking)
-3.0 0.0 0.0
+0.0 0.0 0.0
 Checking row idx 213
-3.0 0.0 0.0
-Slow: 213 (parking)
-2.0 0.0 0.0
+0.0 0.0 0.0
 Checking row idx 282
-2.0 0.0 0.0
-Slow: 282 (parking)
-1.0 0.0 0.0
+0.0 0.0 0.0
 Checking row idx 290
-1.0 0.0 0.0
-Slow: 290 (parking)
 0.0 0.0 0.0
 Region 215
 Checking row idx 31
@@ -3957,6 +4000,8 @@ Region 240
 Region 241
 Region 242
 Checking row idx 48
+0.0 1.0 0.0
+Fast: 48 (parking)
 0.0 0.0 0.0
 Region 243
 Region 244
@@ -4097,8 +4142,12 @@ Checking row idx 142
 0.0 0.0 0.0
 Region 328
 Checking row idx 2
-0.0 0.0 0.0
+2.0 0.0 0.0
+Slow: 2 (parking)
+1.0 0.0 0.0
 Checking row idx 159
+1.0 0.0 0.0
+Slow: 159 (parking)
 0.0 0.0 0.0
 Region 329
 Region 330
@@ -4166,7 +4215,7 @@ Region 367
 Region 368
 Region 369
 Checking row idx 25
-1.0 0.0 0.0
+0.0 0.0 0.0
 Region 370
 Region 371
 Region 372
@@ -4200,8 +4249,8 @@ Region 395
 Region 396
 Region 397
 Checking row idx 132
-1.0 0.0 0.0
-Slow: 132 (parking)
+0.0 1.0 0.0
+Fast: 132 (parking)
 0.0 0.0 0.0
 Region 398
 Region 399

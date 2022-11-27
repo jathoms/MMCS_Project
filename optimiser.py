@@ -43,15 +43,15 @@ demand = np.array([demand_data[period]
                    for period in get_period_names(n_periods)])
 
 # certain adjustable parameters
-max_chargers_per_region = -1
-max_added_chargers = -1
-max_supply_per_region = 75000
-min_avg_distance_from_cc = -1
-POI_importance = 0
-rapid_supply_limit = 1
+max_chargers_per_region = 7
+max_added_chargers = 100
+max_supply_per_region = 80000
+min_avg_distance_from_cc = 3000
+POI_importance = 0.7
+rapid_supply_limit = 0.6
 
 time_limit = 60
-MIP_gap = 0.05
+MIP_gap = 0.01
 
 m = gp.Model()
 
@@ -190,6 +190,8 @@ m.setObjective(gp.quicksum(norms), gp.GRB.MINIMIZE)
 global_max_supply = 100000.0
 global_max_demand = 100000.0
 global_max = 100000.0
+diff_max_under = 100000.0
+diff_max_over = 100000.0
 
 
 def run_model():
@@ -205,6 +207,13 @@ def run_model():
         [max([demand[i][j] for j in range(n_regions)]) for i in range(n_periods)])
     global global_max
     global_max = max(global_max_demand, global_max_supply)
+    global diff_max_under
+    diff_max_under = max([max([abs(min(diff[i][j].X, 0))
+                         for j in range(n_regions)]) for i in range(n_periods)])
+    global diff_max_over
+    diff_max_over = max([max([abs(max(diff[i][j].X, 0))
+                         for j in range(n_regions)]) for i in range(n_periods)])
+
     print('done')
 
 
@@ -214,7 +223,7 @@ def print_results():
     with open("results.txt", "w") as f:
         sys.stdout = f
         for i in range(n_periods):
-            print('Year: {}'.format(i))
+            print('Year: {}'.format(i+1))
             print(
                 f'Avg distance of added chargers from city centre: {avg_distance_from_cc[i]}')
             if i >= 1:
@@ -361,13 +370,13 @@ def generate_plan():
                 else:
                     continue
     sys.stdout = sys.__stdout__
-    os.remove('Plan.xlsx')
+    if os.path.exists("Plan.xlsx"):
+        os.remove('Plan.xlsx')
     potential_df.to_excel('Plan.xlsx')
     return
 
 
 def get_supply_diff_dataframe():
-
     for i in range(n_periods):
         demand_data["Supply_{}".format(i)] = supply[i].X
         demand_data["Diff_{}".format(i)] = [abs(min(0, x))
