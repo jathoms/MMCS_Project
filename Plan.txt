@@ -1,0 +1,4254 @@
+Empty DataFrame
+Columns: [amenity, geometry_x, Latitude, Longitude, grid number, CP ID, Type, geometry_y]
+Index: []
+Year 1
+Region 1
+Region 2
+Region 3
+Region 4
+Region 5
+Region 6
+Region 7
+Region 8
+Region 9
+Region 10
+Region 11
+Region 12
+Region 13
+Region 14
+Region 15
+Region 16
+Region 17
+Region 18
+Region 19
+Region 20
+Region 21
+Region 22
+Region 23
+Region 24
+Region 25
+Region 26
+Region 27
+Region 28
+Region 29
+Region 30
+Region 31
+Region 32
+Region 33
+Region 34
+Region 35
+Region 36
+Region 37
+Region 38
+Region 39
+Region 40
+Region 41
+Region 42
+Region 43
+Region 44
+Region 45
+Region 46
+Region 47
+Region 48
+Region 49
+Region 50
+Region 51
+Region 52
+Region 53
+Region 54
+Region 55
+Region 56
+Region 57
+Region 58
+Region 59
+Region 60
+Region 61
+Checking row idx 183
+-0.0 -0.0 -0.0
+Checking row idx 184
+-0.0 -0.0 -0.0
+Region 62
+Region 63
+Region 64
+Region 65
+Region 66
+Region 67
+Region 68
+Region 69
+Region 70
+Region 71
+Region 72
+Region 73
+Region 74
+Region 75
+Checking row idx 301
+-0.0 -0.0 -0.0
+Checking row idx 303
+-0.0 -0.0 -0.0
+Checking row idx 304
+-0.0 -0.0 -0.0
+Region 76
+Checking row idx 280
+-0.0 -0.0 -0.0
+Checking row idx 281
+-0.0 -0.0 -0.0
+Checking row idx 292
+-0.0 -0.0 -0.0
+Checking row idx 302
+-0.0 -0.0 -0.0
+Region 77
+Checking row idx 293
+-0.0 -0.0 -0.0
+Region 78
+Region 79
+Region 80
+Region 81
+Region 82
+Region 83
+Region 84
+Region 85
+Region 86
+Region 87
+Region 88
+Checking row idx 22
+-0.0 -0.0 -0.0
+Checking row idx 23
+-0.0 -0.0 -0.0
+Checking row idx 44
+-0.0 -0.0 -0.0
+Region 89
+Checking row idx 0
+-0.0 -0.0 -0.0
+Checking row idx 162
+-0.0 -0.0 -0.0
+Checking row idx 201
+-0.0 -0.0 -0.0
+Checking row idx 310
+-0.0 -0.0 -0.0
+Checking row idx 311
+-0.0 -0.0 -0.0
+Checking row idx 312
+-0.0 -0.0 -0.0
+Checking row idx 313
+-0.0 -0.0 -0.0
+Checking row idx 314
+-0.0 -0.0 -0.0
+Checking row idx 315
+-0.0 -0.0 -0.0
+Checking row idx 316
+-0.0 -0.0 -0.0
+Checking row idx 317
+-0.0 -0.0 -0.0
+Checking row idx 318
+-0.0 -0.0 -0.0
+Checking row idx 319
+-0.0 -0.0 -0.0
+Region 90
+Checking row idx 143
+-0.0 -0.0 -0.0
+Checking row idx 156
+-0.0 -0.0 -0.0
+Checking row idx 297
+-0.0 -0.0 -0.0
+Checking row idx 320
+-0.0 -0.0 -0.0
+Checking row idx 321
+-0.0 -0.0 -0.0
+Checking row idx 322
+-0.0 -0.0 -0.0
+Region 91
+Checking row idx 175
+-0.0 -0.0 -0.0
+Checking row idx 234
+-0.0 -0.0 -0.0
+Checking row idx 239
+-0.0 -0.0 -0.0
+Checking row idx 300
+-0.0 -0.0 -0.0
+Region 92
+Region 93
+Region 94
+Region 95
+Region 96
+Region 97
+Region 98
+Region 99
+Region 100
+Region 101
+Checking row idx 117
+-0.0 -0.0 -0.0
+Region 102
+Checking row idx 7
+-0.0 -0.0 -0.0
+Checking row idx 200
+-0.0 -0.0 -0.0
+Checking row idx 203
+-0.0 -0.0 -0.0
+Region 103
+Checking row idx 52
+-0.0 -0.0 -0.0
+Checking row idx 84
+-0.0 -0.0 -0.0
+Checking row idx 85
+-0.0 -0.0 -0.0
+Checking row idx 86
+-0.0 -0.0 -0.0
+Checking row idx 88
+-0.0 -0.0 -0.0
+Checking row idx 89
+-0.0 -0.0 -0.0
+Checking row idx 90
+-0.0 -0.0 -0.0
+Checking row idx 170
+-0.0 -0.0 -0.0
+Checking row idx 195
+-0.0 -0.0 -0.0
+Checking row idx 196
+-0.0 -0.0 -0.0
+Checking row idx 309
+-0.0 -0.0 -0.0
+Region 104
+Checking row idx 152
+-0.0 -0.0 -0.0
+Checking row idx 271
+-0.0 -0.0 -0.0
+Checking row idx 305
+-0.0 -0.0 -0.0
+Region 105
+Checking row idx 269
+-0.0 -0.0 -0.0
+Checking row idx 306
+-0.0 -0.0 -0.0
+Region 106
+Checking row idx 37
+-0.0 -0.0 -0.0
+Region 107
+Checking row idx 36
+-0.0 -0.0 -0.0
+Checking row idx 38
+-0.0 -0.0 -0.0
+Checking row idx 39
+-0.0 -0.0 -0.0
+Checking row idx 240
+-0.0 -0.0 -0.0
+Region 108
+Region 109
+Checking row idx 42
+-0.0 -0.0 -0.0
+Region 110
+Region 111
+Region 112
+Region 113
+Region 114
+Region 115
+Checking row idx 56
+-0.0 -0.0 -0.0
+Checking row idx 176
+-0.0 -0.0 -0.0
+Checking row idx 177
+-0.0 -0.0 -0.0
+Checking row idx 247
+-0.0 -0.0 -0.0
+Region 116
+Checking row idx 18
+-0.0 -0.0 -0.0
+Checking row idx 19
+-0.0 -0.0 -0.0
+Checking row idx 197
+-0.0 -0.0 -0.0
+Checking row idx 198
+-0.0 -0.0 -0.0
+Checking row idx 199
+-0.0 -0.0 -0.0
+Region 117
+Checking row idx 50
+-0.0 -0.0 -0.0
+Checking row idx 51
+-0.0 -0.0 -0.0
+Checking row idx 83
+-0.0 -0.0 -0.0
+Checking row idx 87
+-0.0 -0.0 -0.0
+Region 118
+Region 119
+Checking row idx 244
+-0.0 4.0 -0.0
+Fast: 244 (parking)
+-0.0 3.0 -0.0
+Checking row idx 266
+-0.0 3.0 -0.0
+Fast: 266 (fuel)
+Checking row idx 268
+-0.0 2.0 -0.0
+Fast: 268 (parking)
+-0.0 1.0 -0.0
+Checking row idx 270
+-0.0 1.0 -0.0
+Fast: 270 (parking)
+-0.0 0.0 -0.0
+Checking row idx 307
+-0.0 0.0 -0.0
+Region 120
+Region 121
+Checking row idx 40
+-0.0 -0.0 -0.0
+Checking row idx 43
+-0.0 -0.0 -0.0
+Checking row idx 241
+-0.0 -0.0 -0.0
+Checking row idx 242
+-0.0 -0.0 -0.0
+Region 122
+Region 123
+Checking row idx 41
+-0.0 -0.0 -0.0
+Region 124
+Region 125
+Region 126
+Region 127
+Region 128
+Region 129
+Checking row idx 57
+-0.0 -0.0 -0.0
+Checking row idx 81
+-0.0 -0.0 -0.0
+Checking row idx 96
+-0.0 -0.0 -0.0
+Region 130
+Region 131
+Region 132
+Region 133
+Region 134
+Checking row idx 148
+-0.0 -0.0 -0.0
+Checking row idx 259
+-0.0 -0.0 -0.0
+Checking row idx 298
+-0.0 -0.0 -0.0
+Checking row idx 299
+-0.0 -0.0 -0.0
+Region 135
+Region 136
+Region 137
+Region 138
+Region 139
+Region 140
+Region 141
+Region 142
+Region 143
+Checking row idx 202
+-0.0 -0.0 -0.0
+Checking row idx 308
+-0.0 -0.0 -0.0
+Region 144
+Checking row idx 174
+-0.0 -0.0 -0.0
+Region 145
+Checking row idx 8
+-0.0 -0.0 -0.0
+Checking row idx 46
+-0.0 -0.0 -0.0
+Region 146
+Checking row idx 134
+-0.0 -0.0 -0.0
+Checking row idx 205
+-0.0 -0.0 -0.0
+Checking row idx 206
+-0.0 -0.0 -0.0
+Checking row idx 249
+-0.0 -0.0 -0.0
+Checking row idx 267
+-0.0 -0.0 -0.0
+Region 147
+Checking row idx 161
+-0.0 -0.0 -0.0
+Region 148
+Checking row idx 235
+-0.0 -0.0 -0.0
+Region 149
+Checking row idx 147
+-0.0 1.0 -0.0
+Fast: 147 (parking)
+-0.0 0.0 -0.0
+Region 150
+Region 151
+Region 152
+Region 153
+Region 154
+Region 155
+Region 156
+Checking row idx 95
+-0.0 -0.0 -0.0
+Region 157
+Checking row idx 149
+-0.0 -0.0 -0.0
+Region 158
+Region 159
+Region 160
+Checking row idx 180
+-0.0 -0.0 -0.0
+Region 161
+Checking row idx 179
+-0.0 1.0 -0.0
+Fast: 179 (parking)
+-0.0 0.0 -0.0
+Checking row idx 181
+-0.0 0.0 -0.0
+Checking row idx 182
+-0.0 0.0 -0.0
+Region 162
+Checking row idx 191
+-0.0 -0.0 -0.0
+Region 163
+Region 164
+Checking row idx 237
+-0.0 -0.0 -0.0
+Region 165
+Region 166
+Region 167
+Region 168
+Region 169
+Region 170
+Region 171
+Checking row idx 12
+-0.0 -0.0 -0.0
+Checking row idx 178
+-0.0 -0.0 -0.0
+Checking row idx 188
+-0.0 -0.0 -0.0
+Checking row idx 189
+-0.0 -0.0 -0.0
+Region 172
+Checking row idx 232
+-0.0 -0.0 -0.0
+Checking row idx 295
+-0.0 -0.0 -0.0
+Checking row idx 296
+-0.0 -0.0 -0.0
+Region 173
+Region 174
+Region 175
+Checking row idx 284
+-0.0 -0.0 -0.0
+Checking row idx 285
+-0.0 -0.0 -0.0
+Checking row idx 286
+-0.0 -0.0 -0.0
+Checking row idx 287
+-0.0 -0.0 -0.0
+Checking row idx 288
+-0.0 -0.0 -0.0
+Checking row idx 289
+-0.0 -0.0 -0.0
+Region 176
+Checking row idx 6
+-0.0 -0.0 -0.0
+Checking row idx 58
+-0.0 -0.0 -0.0
+Checking row idx 59
+-0.0 -0.0 -0.0
+Checking row idx 60
+-0.0 -0.0 -0.0
+Checking row idx 61
+-0.0 -0.0 -0.0
+Checking row idx 62
+-0.0 -0.0 -0.0
+Checking row idx 76
+-0.0 -0.0 -0.0
+Checking row idx 125
+-0.0 -0.0 -0.0
+Checking row idx 126
+-0.0 -0.0 -0.0
+Region 177
+Checking row idx 169
+-0.0 -0.0 -0.0
+Region 178
+Checking row idx 291
+-0.0 -0.0 -0.0
+Region 179
+Region 180
+Region 181
+Region 182
+Region 183
+Region 184
+Checking row idx 34
+-0.0 -0.0 -0.0
+Checking row idx 97
+-0.0 -0.0 -0.0
+Region 185
+Checking row idx 79
+-0.0 -0.0 -0.0
+Checking row idx 80
+-0.0 -0.0 -0.0
+Checking row idx 130
+-0.0 -0.0 -0.0
+Checking row idx 133
+-0.0 -0.0 -0.0
+Checking row idx 146
+-0.0 -0.0 -0.0
+Checking row idx 185
+-0.0 -0.0 -0.0
+Checking row idx 258
+-0.0 -0.0 -0.0
+Checking row idx 323
+-0.0 -0.0 -0.0
+Region 186
+Checking row idx 15
+-0.0 -0.0 -0.0
+Checking row idx 216
+-0.0 -0.0 -0.0
+Checking row idx 217
+-0.0 -0.0 -0.0
+Checking row idx 218
+-0.0 -0.0 -0.0
+Checking row idx 219
+-0.0 -0.0 -0.0
+Checking row idx 220
+-0.0 -0.0 -0.0
+Checking row idx 221
+-0.0 -0.0 -0.0
+Checking row idx 222
+-0.0 -0.0 -0.0
+Checking row idx 223
+-0.0 -0.0 -0.0
+Checking row idx 224
+-0.0 -0.0 -0.0
+Checking row idx 225
+-0.0 -0.0 -0.0
+Checking row idx 226
+-0.0 -0.0 -0.0
+Checking row idx 227
+-0.0 -0.0 -0.0
+Checking row idx 230
+-0.0 -0.0 -0.0
+Checking row idx 231
+-0.0 -0.0 -0.0
+Region 187
+Checking row idx 150
+-0.0 -0.0 -0.0
+Checking row idx 214
+-0.0 -0.0 -0.0
+Checking row idx 228
+-0.0 -0.0 -0.0
+Checking row idx 257
+-0.0 -0.0 -0.0
+Region 188
+Checking row idx 45
+-0.0 -0.0 -0.0
+Checking row idx 229
+-0.0 -0.0 -0.0
+Region 189
+Checking row idx 151
+-0.0 -0.0 -0.0
+Region 190
+Region 191
+Checking row idx 13
+-0.0 -0.0 -0.0
+Checking row idx 155
+-0.0 -0.0 -0.0
+Checking row idx 255
+-0.0 -0.0 -0.0
+Region 192
+Checking row idx 207
+-0.0 -0.0 -0.0
+Checking row idx 208
+-0.0 -0.0 -0.0
+Checking row idx 254
+-0.0 -0.0 -0.0
+Region 193
+Region 194
+Region 195
+Region 196
+Region 197
+Region 198
+Checking row idx 5
+-0.0 -0.0 -0.0
+Checking row idx 98
+-0.0 -0.0 -0.0
+Region 199
+Checking row idx 29
+-0.0 -0.0 -0.0
+Checking row idx 47
+-0.0 -0.0 -0.0
+Checking row idx 65
+-0.0 -0.0 -0.0
+Checking row idx 70
+-0.0 -0.0 -0.0
+Checking row idx 71
+-0.0 -0.0 -0.0
+Checking row idx 72
+-0.0 -0.0 -0.0
+Checking row idx 91
+-0.0 -0.0 -0.0
+Checking row idx 94
+-0.0 -0.0 -0.0
+Checking row idx 119
+-0.0 -0.0 -0.0
+Checking row idx 120
+-0.0 -0.0 -0.0
+Checking row idx 122
+-0.0 -0.0 -0.0
+Checking row idx 123
+-0.0 -0.0 -0.0
+Checking row idx 131
+-0.0 -0.0 -0.0
+Region 200
+Checking row idx 4
+-0.0 -0.0 -0.0
+Checking row idx 14
+-0.0 -0.0 -0.0
+Checking row idx 17
+-0.0 -0.0 -0.0
+Checking row idx 33
+-0.0 -0.0 -0.0
+Checking row idx 63
+-0.0 -0.0 -0.0
+Checking row idx 64
+-0.0 -0.0 -0.0
+Checking row idx 66
+-0.0 -0.0 -0.0
+Checking row idx 103
+-0.0 -0.0 -0.0
+Checking row idx 104
+-0.0 -0.0 -0.0
+Checking row idx 105
+-0.0 -0.0 -0.0
+Checking row idx 144
+-0.0 -0.0 -0.0
+Checking row idx 190
+-0.0 -0.0 -0.0
+Checking row idx 209
+-0.0 -0.0 -0.0
+Checking row idx 210
+-0.0 -0.0 -0.0
+Checking row idx 211
+-0.0 -0.0 -0.0
+Checking row idx 212
+-0.0 -0.0 -0.0
+Checking row idx 215
+-0.0 -0.0 -0.0
+Checking row idx 324
+-0.0 -0.0 -0.0
+Region 201
+Checking row idx 75
+-0.0 -0.0 -0.0
+Checking row idx 166
+-0.0 -0.0 -0.0
+Checking row idx 238
+-0.0 -0.0 -0.0
+Region 202
+Checking row idx 164
+-0.0 -0.0 -0.0
+Checking row idx 165
+-0.0 -0.0 -0.0
+Checking row idx 173
+-0.0 -0.0 -0.0
+Region 203
+Checking row idx 92
+-0.0 -0.0 -0.0
+Checking row idx 256
+-0.0 -0.0 -0.0
+Region 204
+Region 205
+Checking row idx 187
+-0.0 -0.0 -0.0
+Checking row idx 283
+-0.0 -0.0 -0.0
+Region 206
+Checking row idx 261
+-0.0 -0.0 -0.0
+Region 207
+Region 208
+Region 209
+Region 210
+Region 211
+Region 212
+Region 213
+Checking row idx 49
+-0.0 -0.0 -0.0
+Checking row idx 67
+-0.0 -0.0 -0.0
+Checking row idx 82
+-0.0 -0.0 -0.0
+Checking row idx 118
+-0.0 -0.0 -0.0
+Checking row idx 121
+-0.0 -0.0 -0.0
+Checking row idx 163
+-0.0 -0.0 -0.0
+Checking row idx 204
+-0.0 -0.0 -0.0
+Region 214
+Checking row idx 10
+-0.0 -0.0 -0.0
+Checking row idx 16
+-0.0 -0.0 -0.0
+Checking row idx 30
+-0.0 -0.0 -0.0
+Checking row idx 32
+-0.0 -0.0 -0.0
+Checking row idx 68
+-0.0 -0.0 -0.0
+Checking row idx 129
+-0.0 -0.0 -0.0
+Checking row idx 213
+-0.0 -0.0 -0.0
+Checking row idx 282
+-0.0 -0.0 -0.0
+Checking row idx 290
+-0.0 -0.0 -0.0
+Region 215
+Checking row idx 31
+-0.0 -0.0 -0.0
+Checking row idx 35
+-0.0 -0.0 -0.0
+Checking row idx 77
+-0.0 -0.0 -0.0
+Checking row idx 78
+-0.0 -0.0 -0.0
+Checking row idx 168
+-0.0 -0.0 -0.0
+Region 216
+Checking row idx 93
+-0.0 -0.0 -0.0
+Region 217
+Checking row idx 109
+-0.0 -0.0 -0.0
+Checking row idx 110
+-0.0 -0.0 -0.0
+Region 218
+Region 219
+Region 220
+Region 221
+Region 222
+Region 223
+Region 224
+Region 225
+Region 226
+Region 227
+Region 228
+Checking row idx 3
+-0.0 -0.0 -0.0
+Checking row idx 20
+-0.0 -0.0 -0.0
+Checking row idx 21
+-0.0 -0.0 -0.0
+Checking row idx 24
+-0.0 -0.0 -0.0
+Checking row idx 54
+-0.0 -0.0 -0.0
+Checking row idx 74
+-0.0 -0.0 -0.0
+Checking row idx 99
+-0.0 -0.0 -0.0
+Checking row idx 101
+-0.0 -0.0 -0.0
+Checking row idx 102
+-0.0 -0.0 -0.0
+Checking row idx 141
+-0.0 -0.0 -0.0
+Region 229
+Checking row idx 53
+-0.0 -0.0 -0.0
+Checking row idx 55
+-0.0 -0.0 -0.0
+Checking row idx 100
+-0.0 -0.0 -0.0
+Checking row idx 192
+-0.0 -0.0 -0.0
+Checking row idx 233
+-0.0 -0.0 -0.0
+Region 230
+Checking row idx 171
+-0.0 -0.0 -0.0
+Checking row idx 172
+-0.0 -0.0 -0.0
+Checking row idx 246
+-0.0 -0.0 -0.0
+Checking row idx 248
+-0.0 -0.0 -0.0
+Checking row idx 264
+-0.0 -0.0 -0.0
+Checking row idx 265
+-0.0 -0.0 -0.0
+Region 231
+Region 232
+Region 233
+Checking row idx 107
+-0.0 -0.0 -0.0
+Checking row idx 124
+-0.0 -0.0 -0.0
+Region 234
+Checking row idx 112
+-0.0 -0.0 -0.0
+Region 235
+Region 236
+Region 237
+Region 238
+Region 239
+Region 240
+Region 241
+Region 242
+Checking row idx 48
+-0.0 -0.0 -0.0
+Region 243
+Region 244
+Region 245
+Region 246
+Checking row idx 167
+-0.0 -0.0 -0.0
+Checking row idx 236
+-0.0 -0.0 -0.0
+Region 247
+Checking row idx 106
+-0.0 -0.0 -0.0
+Checking row idx 108
+-0.0 -0.0 -0.0
+Checking row idx 251
+-0.0 -0.0 -0.0
+Checking row idx 279
+-0.0 -0.0 -0.0
+Region 248
+Checking row idx 11
+-0.0 -0.0 -0.0
+Region 249
+Checking row idx 111
+-0.0 -0.0 -0.0
+Region 250
+Region 251
+Region 252
+Region 253
+Region 254
+Region 255
+Region 256
+Region 257
+Region 258
+Region 259
+Region 260
+Region 261
+Region 262
+Region 263
+Region 264
+Region 265
+Region 266
+Region 267
+Region 268
+Region 269
+Region 270
+Region 271
+Region 272
+Checking row idx 158
+-0.0 -0.0 -0.0
+Region 273
+Region 274
+Region 275
+Checking row idx 243
+-0.0 -0.0 -0.0
+Region 276
+Region 277
+Region 278
+Region 279
+Region 280
+Region 281
+Region 282
+Region 283
+Region 284
+Region 285
+Region 286
+Checking row idx 157
+-0.0 -0.0 -0.0
+Region 287
+Checking row idx 260
+-0.0 -0.0 -0.0
+Checking row idx 272
+-0.0 -0.0 -0.0
+Checking row idx 273
+-0.0 -0.0 -0.0
+Checking row idx 274
+-0.0 -0.0 -0.0
+Checking row idx 275
+-0.0 -0.0 -0.0
+Checking row idx 277
+-0.0 -0.0 -0.0
+Checking row idx 278
+-0.0 -0.0 -0.0
+Region 288
+Checking row idx 276
+-0.0 -0.0 -0.0
+Region 289
+Region 290
+Checking row idx 245
+-0.0 -0.0 -0.0
+Region 291
+Checking row idx 116
+-0.0 -0.0 -0.0
+Region 292
+Region 293
+Region 294
+Region 295
+Region 296
+Region 297
+Region 298
+Region 299
+Checking row idx 9
+-0.0 -0.0 -0.0
+Region 300
+Region 301
+Region 302
+Region 303
+Region 304
+Region 305
+Region 306
+Region 307
+Region 308
+Region 309
+Region 310
+Region 311
+Region 312
+Region 313
+Region 314
+Region 315
+Region 316
+Checking row idx 193
+-0.0 -0.0 -0.0
+Checking row idx 194
+-0.0 -0.0 -0.0
+Checking row idx 252
+-0.0 -0.0 -0.0
+Region 317
+Region 318
+Region 319
+Region 320
+Region 321
+Region 322
+Region 323
+Region 324
+Region 325
+Region 326
+Region 327
+Checking row idx 142
+-0.0 -0.0 -0.0
+Region 328
+Checking row idx 2
+-0.0 -0.0 -0.0
+Checking row idx 159
+-0.0 -0.0 -0.0
+Region 329
+Region 330
+Region 331
+Checking row idx 114
+-0.0 -0.0 -0.0
+Region 332
+Region 333
+Region 334
+Region 335
+Region 336
+Region 337
+Region 338
+Region 339
+Region 340
+Region 341
+Region 342
+Checking row idx 135
+-0.0 -0.0 -0.0
+Region 343
+Checking row idx 160
+-0.0 -0.0 -0.0
+Checking row idx 250
+-0.0 -0.0 -0.0
+Checking row idx 253
+-0.0 -0.0 -0.0
+Region 344
+Region 345
+Checking row idx 113
+-0.0 -0.0 -0.0
+Checking row idx 115
+-0.0 -0.0 -0.0
+Region 346
+Region 347
+Region 348
+Region 349
+Region 350
+Region 351
+Region 352
+Region 353
+Region 354
+Region 355
+Checking row idx 73
+-0.0 4.0 -0.0
+Fast: 73 (parking)
+-0.0 3.0 -0.0
+Checking row idx 137
+-0.0 3.0 -0.0
+Fast: 137 (parking)
+-0.0 2.0 -0.0
+Checking row idx 138
+-0.0 2.0 -0.0
+Fast: 138 (parking)
+-0.0 1.0 -0.0
+Checking row idx 140
+-0.0 1.0 -0.0
+Fast: 140 (parking)
+-0.0 0.0 -0.0
+Checking row idx 186
+-0.0 0.0 -0.0
+Region 356
+Checking row idx 136
+-0.0 1.0 -0.0
+Fast: 136 (parking)
+-0.0 0.0 -0.0
+Region 357
+Region 358
+Region 359
+Region 360
+Region 361
+Region 362
+Region 363
+Region 364
+Region 365
+Region 366
+Region 367
+Region 368
+Region 369
+Checking row idx 25
+1.0 -0.0 -0.0
+Slow: 25 (parking)
+0.0 -0.0 -0.0
+Checking row idx 26
+0.0 -0.0 -0.0
+Checking row idx 139
+0.0 -0.0 -0.0
+Checking row idx 145
+0.0 -0.0 -0.0
+Checking row idx 153
+0.0 -0.0 -0.0
+Checking row idx 154
+0.0 -0.0 -0.0
+Checking row idx 294
+0.0 -0.0 -0.0
+Region 370
+Region 371
+Region 372
+Region 373
+Region 374
+Region 375
+Region 376
+Region 377
+Region 378
+Region 379
+Region 380
+Region 381
+Region 382
+Checking row idx 69
+-0.0 -0.0 -0.0
+Region 383
+Region 384
+Region 385
+Checking row idx 263
+-0.0 -0.0 -0.0
+Region 386
+Region 387
+Region 388
+Region 389
+Region 390
+Region 391
+Region 392
+Region 393
+Region 394
+Region 395
+Region 396
+Region 397
+Checking row idx 132
+-0.0 -0.0 -0.0
+Region 398
+Region 399
+Checking row idx 27
+-0.0 -0.0 -0.0
+Checking row idx 262
+-0.0 -0.0 -0.0
+Region 400
+Checking row idx 28
+-0.0 -0.0 -0.0
+Checking row idx 127
+-0.0 -0.0 -0.0
+Checking row idx 128
+-0.0 -0.0 -0.0
+Region 401
+Region 402
+Region 403
+Region 404
+Region 405
+Region 406
+Region 407
+Region 408
+Region 409
+Region 410
+Region 411
+Region 412
+Checking row idx 1
+-0.0 -0.0 -0.0
+Region 413
+Region 414
+Region 415
+Region 416
+Region 417
+Region 418
+Region 419
+Region 420
+Region 421
+Region 422
+Region 423
+Region 424
+Region 425
+Region 426
+Region 427
+Region 428
+Region 429
+Region 430
+Region 431
+Region 432
+Region 433
+Region 434
+Year 2
+Region 1
+Region 2
+Region 3
+Region 4
+Region 5
+Region 6
+Region 7
+Region 8
+Region 9
+Region 10
+Region 11
+Region 12
+Region 13
+Region 14
+Region 15
+Region 16
+Region 17
+Region 18
+Region 19
+Region 20
+Region 21
+Region 22
+Region 23
+Region 24
+Region 25
+Region 26
+Region 27
+Region 28
+Region 29
+Region 30
+Region 31
+Region 32
+Region 33
+Region 34
+Region 35
+Region 36
+Region 37
+Region 38
+Region 39
+Region 40
+Region 41
+Region 42
+Region 43
+Region 44
+Region 45
+Region 46
+Region 47
+Region 48
+Region 49
+Region 50
+Region 51
+Region 52
+Region 53
+Region 54
+Region 55
+Region 56
+Region 57
+Region 58
+Region 59
+Region 60
+Region 61
+Checking row idx 183
+0.0 0.0 0.0
+Checking row idx 184
+0.0 0.0 0.0
+Region 62
+Region 63
+Region 64
+Region 65
+Region 66
+Region 67
+Region 68
+Region 69
+Region 70
+Region 71
+Region 72
+Region 73
+Region 74
+Region 75
+Checking row idx 301
+0.0 0.0 0.0
+Checking row idx 303
+0.0 0.0 0.0
+Checking row idx 304
+0.0 0.0 0.0
+Region 76
+Checking row idx 280
+0.0 0.0 0.0
+Checking row idx 281
+0.0 0.0 0.0
+Checking row idx 292
+0.0 0.0 0.0
+Checking row idx 302
+0.0 0.0 0.0
+Region 77
+Checking row idx 293
+0.0 0.0 0.0
+Region 78
+Region 79
+Region 80
+Region 81
+Region 82
+Region 83
+Region 84
+Region 85
+Region 86
+Region 87
+Region 88
+Checking row idx 22
+0.0 0.0 0.0
+Checking row idx 23
+0.0 0.0 0.0
+Checking row idx 44
+0.0 0.0 0.0
+Region 89
+Checking row idx 0
+0.0 0.0 0.0
+Checking row idx 162
+0.0 0.0 0.0
+Checking row idx 201
+0.0 0.0 0.0
+Checking row idx 310
+0.0 0.0 0.0
+Checking row idx 311
+0.0 0.0 0.0
+Checking row idx 312
+0.0 0.0 0.0
+Checking row idx 313
+0.0 0.0 0.0
+Checking row idx 314
+0.0 0.0 0.0
+Checking row idx 315
+0.0 0.0 0.0
+Checking row idx 316
+0.0 0.0 0.0
+Checking row idx 317
+0.0 0.0 0.0
+Checking row idx 318
+0.0 0.0 0.0
+Checking row idx 319
+0.0 0.0 0.0
+Region 90
+Checking row idx 143
+0.0 0.0 0.0
+Checking row idx 156
+0.0 0.0 0.0
+Checking row idx 297
+0.0 0.0 0.0
+Checking row idx 320
+0.0 0.0 0.0
+Checking row idx 321
+0.0 0.0 0.0
+Checking row idx 322
+0.0 0.0 0.0
+Region 91
+Checking row idx 175
+0.0 0.0 0.0
+Checking row idx 234
+0.0 0.0 0.0
+Checking row idx 239
+0.0 0.0 0.0
+Checking row idx 300
+0.0 0.0 0.0
+Region 92
+Region 93
+Region 94
+Region 95
+Region 96
+Region 97
+Region 98
+Region 99
+Region 100
+Region 101
+Checking row idx 117
+0.0 0.0 0.0
+Region 102
+Checking row idx 7
+0.0 0.0 0.0
+Checking row idx 200
+0.0 0.0 0.0
+Checking row idx 203
+0.0 0.0 0.0
+Region 103
+Checking row idx 52
+0.0 0.0 0.0
+Checking row idx 84
+0.0 0.0 0.0
+Checking row idx 85
+0.0 0.0 0.0
+Checking row idx 86
+0.0 0.0 0.0
+Checking row idx 88
+0.0 0.0 0.0
+Checking row idx 89
+0.0 0.0 0.0
+Checking row idx 90
+0.0 0.0 0.0
+Checking row idx 170
+0.0 0.0 0.0
+Checking row idx 195
+0.0 0.0 0.0
+Checking row idx 196
+0.0 0.0 0.0
+Checking row idx 309
+0.0 0.0 0.0
+Region 104
+Checking row idx 152
+0.0 1.0 0.0
+Fast: 152 (fuel)
+Checking row idx 271
+0.0 0.0 0.0
+Checking row idx 305
+0.0 0.0 0.0
+Region 105
+Checking row idx 269
+0.0 0.0 0.0
+Checking row idx 306
+0.0 0.0 0.0
+Region 106
+Checking row idx 37
+0.0 0.0 0.0
+Region 107
+Checking row idx 36
+0.0 0.0 0.0
+Checking row idx 38
+0.0 0.0 0.0
+Checking row idx 39
+0.0 0.0 0.0
+Checking row idx 240
+0.0 0.0 0.0
+Region 108
+Region 109
+Checking row idx 42
+0.0 0.0 0.0
+Region 110
+Region 111
+Region 112
+Region 113
+Region 114
+Region 115
+Checking row idx 56
+0.0 0.0 0.0
+Checking row idx 176
+0.0 0.0 0.0
+Checking row idx 177
+0.0 0.0 0.0
+Checking row idx 247
+0.0 0.0 0.0
+Region 116
+Checking row idx 18
+0.0 0.0 0.0
+Checking row idx 19
+0.0 0.0 0.0
+Checking row idx 197
+0.0 0.0 0.0
+Checking row idx 198
+0.0 0.0 0.0
+Checking row idx 199
+0.0 0.0 0.0
+Region 117
+Checking row idx 50
+0.0 0.0 0.0
+Checking row idx 51
+0.0 0.0 0.0
+Checking row idx 83
+0.0 0.0 0.0
+Checking row idx 87
+0.0 0.0 0.0
+Region 118
+Region 119
+Checking row idx 244
+0.0 0.0 0.0
+Region 120
+Region 121
+Checking row idx 40
+0.0 0.0 0.0
+Checking row idx 43
+0.0 0.0 0.0
+Checking row idx 241
+0.0 0.0 0.0
+Checking row idx 242
+0.0 0.0 0.0
+Region 122
+Region 123
+Checking row idx 41
+0.0 0.0 0.0
+Region 124
+Region 125
+Region 126
+Region 127
+Region 128
+Region 129
+Checking row idx 57
+0.0 0.0 0.0
+Checking row idx 81
+0.0 0.0 0.0
+Checking row idx 96
+0.0 0.0 0.0
+Region 130
+Region 131
+Region 132
+Region 133
+Region 134
+Checking row idx 148
+0.0 4.0 0.0
+Fast: 148 (parking)
+0.0 3.0 0.0
+Checking row idx 259
+0.0 3.0 0.0
+Fast: 259 (parking)
+0.0 2.0 0.0
+Checking row idx 298
+0.0 2.0 0.0
+Fast: 298 (parking)
+0.0 1.0 0.0
+Checking row idx 299
+0.0 1.0 0.0
+Fast: 299 (parking)
+0.0 0.0 0.0
+Region 135
+Region 136
+Region 137
+Region 138
+Region 139
+Region 140
+Region 141
+Region 142
+Region 143
+Checking row idx 202
+0.0 0.0 0.0
+Checking row idx 308
+0.0 0.0 0.0
+Region 144
+Checking row idx 174
+0.0 0.0 0.0
+Region 145
+Checking row idx 8
+0.0 1.0 0.0
+Fast: 8 (parking)
+0.0 0.0 0.0
+Checking row idx 46
+0.0 0.0 0.0
+Region 146
+Checking row idx 134
+0.0 0.0 0.0
+Checking row idx 205
+0.0 0.0 0.0
+Checking row idx 206
+0.0 0.0 0.0
+Checking row idx 249
+0.0 0.0 0.0
+Checking row idx 267
+0.0 0.0 0.0
+Region 147
+Checking row idx 161
+0.0 0.0 0.0
+Region 148
+Checking row idx 235
+0.0 0.0 0.0
+Region 149
+Checking row idx 147
+0.0 0.0 0.0
+Region 150
+Region 151
+Region 152
+Region 153
+Region 154
+Region 155
+Region 156
+Checking row idx 95
+0.0 0.0 0.0
+Region 157
+Checking row idx 149
+0.0 0.0 0.0
+Region 158
+Region 159
+Region 160
+Checking row idx 180
+0.0 0.0 0.0
+Region 161
+Checking row idx 179
+0.0 0.0 0.0
+Region 162
+Checking row idx 191
+0.0 0.0 0.0
+Region 163
+Region 164
+Checking row idx 237
+0.0 0.0 0.0
+Region 165
+Region 166
+Region 167
+Region 168
+Region 169
+Region 170
+Region 171
+Checking row idx 12
+0.0 0.0 0.0
+Checking row idx 178
+0.0 0.0 0.0
+Checking row idx 188
+0.0 0.0 0.0
+Checking row idx 189
+0.0 0.0 0.0
+Region 172
+Checking row idx 232
+0.0 0.0 0.0
+Checking row idx 295
+0.0 0.0 0.0
+Checking row idx 296
+0.0 0.0 0.0
+Region 173
+Region 174
+Region 175
+Checking row idx 284
+0.0 0.0 0.0
+Checking row idx 285
+0.0 0.0 0.0
+Checking row idx 286
+0.0 0.0 0.0
+Checking row idx 287
+0.0 0.0 0.0
+Checking row idx 288
+0.0 0.0 0.0
+Checking row idx 289
+0.0 0.0 0.0
+Region 176
+Checking row idx 6
+0.0 0.0 0.0
+Checking row idx 58
+0.0 0.0 0.0
+Checking row idx 59
+0.0 0.0 0.0
+Checking row idx 60
+0.0 0.0 0.0
+Checking row idx 61
+0.0 0.0 0.0
+Checking row idx 62
+0.0 0.0 0.0
+Checking row idx 76
+0.0 0.0 0.0
+Checking row idx 125
+0.0 0.0 0.0
+Checking row idx 126
+0.0 0.0 0.0
+Region 177
+Checking row idx 169
+0.0 0.0 0.0
+Region 178
+Checking row idx 291
+0.0 0.0 0.0
+Region 179
+Region 180
+Region 181
+Region 182
+Region 183
+Region 184
+Checking row idx 34
+0.0 0.0 0.0
+Checking row idx 97
+0.0 0.0 0.0
+Region 185
+Checking row idx 79
+0.0 0.0 0.0
+Checking row idx 80
+0.0 0.0 0.0
+Checking row idx 130
+0.0 0.0 0.0
+Checking row idx 133
+0.0 0.0 0.0
+Checking row idx 146
+0.0 0.0 0.0
+Checking row idx 185
+0.0 0.0 0.0
+Checking row idx 258
+0.0 0.0 0.0
+Checking row idx 323
+0.0 0.0 0.0
+Region 186
+Checking row idx 15
+0.0 0.0 0.0
+Checking row idx 216
+0.0 0.0 0.0
+Checking row idx 217
+0.0 0.0 0.0
+Checking row idx 218
+0.0 0.0 0.0
+Checking row idx 219
+0.0 0.0 0.0
+Checking row idx 220
+0.0 0.0 0.0
+Checking row idx 221
+0.0 0.0 0.0
+Checking row idx 222
+0.0 0.0 0.0
+Checking row idx 223
+0.0 0.0 0.0
+Checking row idx 224
+0.0 0.0 0.0
+Checking row idx 225
+0.0 0.0 0.0
+Checking row idx 226
+0.0 0.0 0.0
+Checking row idx 227
+0.0 0.0 0.0
+Checking row idx 230
+0.0 0.0 0.0
+Checking row idx 231
+0.0 0.0 0.0
+Region 187
+Checking row idx 150
+0.0 0.0 0.0
+Checking row idx 214
+0.0 0.0 0.0
+Checking row idx 228
+0.0 0.0 0.0
+Checking row idx 257
+0.0 0.0 0.0
+Region 188
+Checking row idx 45
+0.0 0.0 0.0
+Checking row idx 229
+0.0 0.0 0.0
+Region 189
+Checking row idx 151
+0.0 0.0 0.0
+Region 190
+Region 191
+Checking row idx 13
+0.0 0.0 0.0
+Checking row idx 155
+0.0 0.0 0.0
+Checking row idx 255
+0.0 0.0 0.0
+Region 192
+Checking row idx 207
+0.0 0.0 0.0
+Checking row idx 208
+0.0 0.0 0.0
+Checking row idx 254
+0.0 0.0 0.0
+Region 193
+Region 194
+Region 195
+Region 196
+Region 197
+Region 198
+Checking row idx 5
+0.0 0.0 0.0
+Checking row idx 98
+0.0 0.0 0.0
+Region 199
+Checking row idx 29
+0.0 0.0 0.0
+Checking row idx 47
+0.0 0.0 0.0
+Checking row idx 65
+0.0 0.0 0.0
+Checking row idx 70
+0.0 0.0 0.0
+Checking row idx 71
+0.0 0.0 0.0
+Checking row idx 72
+0.0 0.0 0.0
+Checking row idx 91
+0.0 0.0 0.0
+Checking row idx 94
+0.0 0.0 0.0
+Checking row idx 119
+0.0 0.0 0.0
+Checking row idx 120
+0.0 0.0 0.0
+Checking row idx 122
+0.0 0.0 0.0
+Checking row idx 123
+0.0 0.0 0.0
+Checking row idx 131
+0.0 0.0 0.0
+Region 200
+Checking row idx 4
+0.0 0.0 0.0
+Checking row idx 14
+0.0 0.0 0.0
+Checking row idx 17
+0.0 0.0 0.0
+Checking row idx 33
+0.0 0.0 0.0
+Checking row idx 63
+0.0 0.0 0.0
+Checking row idx 64
+0.0 0.0 0.0
+Checking row idx 66
+0.0 0.0 0.0
+Checking row idx 103
+0.0 0.0 0.0
+Checking row idx 104
+0.0 0.0 0.0
+Checking row idx 105
+0.0 0.0 0.0
+Checking row idx 144
+0.0 0.0 0.0
+Checking row idx 190
+0.0 0.0 0.0
+Checking row idx 209
+0.0 0.0 0.0
+Checking row idx 210
+0.0 0.0 0.0
+Checking row idx 211
+0.0 0.0 0.0
+Checking row idx 212
+0.0 0.0 0.0
+Checking row idx 215
+0.0 0.0 0.0
+Checking row idx 324
+0.0 0.0 0.0
+Region 201
+Checking row idx 75
+0.0 0.0 0.0
+Checking row idx 166
+0.0 0.0 0.0
+Checking row idx 238
+0.0 0.0 0.0
+Region 202
+Checking row idx 164
+0.0 0.0 0.0
+Checking row idx 165
+0.0 0.0 0.0
+Checking row idx 173
+0.0 0.0 0.0
+Region 203
+Checking row idx 92
+0.0 0.0 0.0
+Checking row idx 256
+0.0 0.0 0.0
+Region 204
+Region 205
+Checking row idx 187
+0.0 0.0 0.0
+Checking row idx 283
+0.0 0.0 0.0
+Region 206
+Checking row idx 261
+0.0 0.0 0.0
+Region 207
+Region 208
+Region 209
+Region 210
+Region 211
+Region 212
+Region 213
+Checking row idx 49
+0.0 0.0 0.0
+Checking row idx 67
+0.0 0.0 0.0
+Checking row idx 82
+0.0 0.0 0.0
+Checking row idx 118
+0.0 0.0 0.0
+Checking row idx 121
+0.0 0.0 0.0
+Checking row idx 163
+0.0 0.0 0.0
+Checking row idx 204
+0.0 0.0 0.0
+Region 214
+Checking row idx 10
+0.0 0.0 0.0
+Checking row idx 16
+0.0 0.0 0.0
+Checking row idx 30
+0.0 0.0 0.0
+Checking row idx 32
+0.0 0.0 0.0
+Checking row idx 68
+0.0 0.0 0.0
+Checking row idx 129
+0.0 0.0 0.0
+Checking row idx 213
+0.0 0.0 0.0
+Checking row idx 282
+0.0 0.0 0.0
+Checking row idx 290
+0.0 0.0 0.0
+Region 215
+Checking row idx 31
+0.0 0.0 0.0
+Checking row idx 35
+0.0 0.0 0.0
+Checking row idx 77
+0.0 0.0 0.0
+Checking row idx 78
+0.0 0.0 0.0
+Checking row idx 168
+0.0 0.0 0.0
+Region 216
+Checking row idx 93
+0.0 0.0 0.0
+Region 217
+Checking row idx 109
+0.0 0.0 0.0
+Checking row idx 110
+0.0 0.0 0.0
+Region 218
+Region 219
+Region 220
+Region 221
+Region 222
+Region 223
+Region 224
+Region 225
+Region 226
+Region 227
+Region 228
+Checking row idx 3
+0.0 0.0 0.0
+Checking row idx 20
+0.0 0.0 0.0
+Checking row idx 21
+0.0 0.0 0.0
+Checking row idx 24
+0.0 0.0 0.0
+Checking row idx 54
+0.0 0.0 0.0
+Checking row idx 74
+0.0 0.0 0.0
+Checking row idx 99
+0.0 0.0 0.0
+Checking row idx 101
+0.0 0.0 0.0
+Checking row idx 102
+0.0 0.0 0.0
+Checking row idx 141
+0.0 0.0 0.0
+Region 229
+Checking row idx 53
+0.0 0.0 0.0
+Checking row idx 55
+0.0 0.0 0.0
+Checking row idx 100
+0.0 0.0 0.0
+Checking row idx 192
+0.0 0.0 0.0
+Checking row idx 233
+0.0 0.0 0.0
+Region 230
+Checking row idx 171
+0.0 0.0 0.0
+Checking row idx 172
+0.0 0.0 0.0
+Checking row idx 246
+0.0 0.0 0.0
+Checking row idx 248
+0.0 0.0 0.0
+Checking row idx 264
+0.0 0.0 0.0
+Checking row idx 265
+0.0 0.0 0.0
+Region 231
+Region 232
+Region 233
+Checking row idx 107
+0.0 0.0 0.0
+Checking row idx 124
+0.0 0.0 0.0
+Region 234
+Checking row idx 112
+0.0 0.0 0.0
+Region 235
+Region 236
+Region 237
+Region 238
+Region 239
+Region 240
+Region 241
+Region 242
+Checking row idx 48
+0.0 0.0 0.0
+Region 243
+Region 244
+Region 245
+Region 246
+Checking row idx 167
+0.0 0.0 0.0
+Checking row idx 236
+0.0 0.0 0.0
+Region 247
+Checking row idx 106
+0.0 0.0 0.0
+Checking row idx 108
+0.0 0.0 0.0
+Checking row idx 251
+0.0 0.0 0.0
+Checking row idx 279
+0.0 0.0 0.0
+Region 248
+Checking row idx 11
+0.0 0.0 0.0
+Region 249
+Checking row idx 111
+0.0 0.0 0.0
+Region 250
+Region 251
+Region 252
+Region 253
+Region 254
+Region 255
+Region 256
+Region 257
+Region 258
+Region 259
+Region 260
+Region 261
+Region 262
+Region 263
+Region 264
+Region 265
+Region 266
+Region 267
+Region 268
+Region 269
+Region 270
+Region 271
+Region 272
+Checking row idx 158
+0.0 0.0 0.0
+Region 273
+Region 274
+Region 275
+Checking row idx 243
+0.0 0.0 0.0
+Region 276
+Region 277
+Region 278
+Region 279
+Region 280
+Region 281
+Region 282
+Region 283
+Region 284
+Region 285
+Region 286
+Checking row idx 157
+0.0 0.0 0.0
+Region 287
+Checking row idx 260
+0.0 0.0 0.0
+Checking row idx 272
+0.0 0.0 0.0
+Checking row idx 273
+0.0 0.0 0.0
+Checking row idx 274
+0.0 0.0 0.0
+Checking row idx 275
+0.0 0.0 0.0
+Checking row idx 277
+0.0 0.0 0.0
+Checking row idx 278
+0.0 0.0 0.0
+Region 288
+Checking row idx 276
+0.0 0.0 0.0
+Region 289
+Region 290
+Checking row idx 245
+0.0 0.0 0.0
+Region 291
+Checking row idx 116
+0.0 0.0 0.0
+Region 292
+Region 293
+Region 294
+Region 295
+Region 296
+Region 297
+Region 298
+Region 299
+Checking row idx 9
+0.0 0.0 0.0
+Region 300
+Region 301
+Region 302
+Region 303
+Region 304
+Region 305
+Region 306
+Region 307
+Region 308
+Region 309
+Region 310
+Region 311
+Region 312
+Region 313
+Region 314
+Region 315
+Region 316
+Checking row idx 193
+0.0 0.0 0.0
+Checking row idx 194
+0.0 0.0 0.0
+Checking row idx 252
+0.0 0.0 0.0
+Region 317
+Region 318
+Region 319
+Region 320
+Region 321
+Region 322
+Region 323
+Region 324
+Region 325
+Region 326
+Region 327
+Checking row idx 142
+0.0 0.0 0.0
+Region 328
+Checking row idx 2
+0.0 0.0 0.0
+Checking row idx 159
+0.0 0.0 0.0
+Region 329
+Region 330
+Region 331
+Checking row idx 114
+0.0 0.0 0.0
+Region 332
+Region 333
+Region 334
+Region 335
+Region 336
+Region 337
+Region 338
+Region 339
+Region 340
+Region 341
+Region 342
+Checking row idx 135
+0.0 0.0 0.0
+Region 343
+Checking row idx 160
+0.0 0.0 0.0
+Checking row idx 250
+0.0 0.0 0.0
+Checking row idx 253
+0.0 0.0 0.0
+Region 344
+Region 345
+Checking row idx 113
+0.0 0.0 0.0
+Checking row idx 115
+0.0 0.0 0.0
+Region 346
+Region 347
+Region 348
+Region 349
+Region 350
+Region 351
+Region 352
+Region 353
+Region 354
+Region 355
+Checking row idx 73
+0.0 0.0 0.0
+Region 356
+Checking row idx 136
+0.0 0.0 0.0
+Region 357
+Region 358
+Region 359
+Region 360
+Region 361
+Region 362
+Region 363
+Region 364
+Region 365
+Region 366
+Region 367
+Region 368
+Region 369
+Checking row idx 25
+0.0 0.0 0.0
+Region 370
+Region 371
+Region 372
+Region 373
+Region 374
+Region 375
+Region 376
+Region 377
+Region 378
+Region 379
+Region 380
+Region 381
+Region 382
+Checking row idx 69
+0.0 0.0 0.0
+Region 383
+Region 384
+Region 385
+Checking row idx 263
+0.0 0.0 0.0
+Region 386
+Region 387
+Region 388
+Region 389
+Region 390
+Region 391
+Region 392
+Region 393
+Region 394
+Region 395
+Region 396
+Region 397
+Checking row idx 132
+0.0 0.0 0.0
+Region 398
+Region 399
+Checking row idx 27
+0.0 0.0 0.0
+Checking row idx 262
+0.0 0.0 0.0
+Region 400
+Checking row idx 28
+0.0 0.0 0.0
+Checking row idx 127
+0.0 0.0 0.0
+Checking row idx 128
+0.0 0.0 0.0
+Region 401
+Region 402
+Region 403
+Region 404
+Region 405
+Region 406
+Region 407
+Region 408
+Region 409
+Region 410
+Region 411
+Region 412
+Checking row idx 1
+0.0 0.0 0.0
+Region 413
+Region 414
+Region 415
+Region 416
+Region 417
+Region 418
+Region 419
+Region 420
+Region 421
+Region 422
+Region 423
+Region 424
+Region 425
+Region 426
+Region 427
+Region 428
+Region 429
+Region 430
+Region 431
+Region 432
+Region 433
+Region 434
+Year 3
+Region 1
+Region 2
+Region 3
+Region 4
+Region 5
+Region 6
+Region 7
+Region 8
+Region 9
+Region 10
+Region 11
+Region 12
+Region 13
+Region 14
+Region 15
+Region 16
+Region 17
+Region 18
+Region 19
+Region 20
+Region 21
+Region 22
+Region 23
+Region 24
+Region 25
+Region 26
+Region 27
+Region 28
+Region 29
+Region 30
+Region 31
+Region 32
+Region 33
+Region 34
+Region 35
+Region 36
+Region 37
+Region 38
+Region 39
+Region 40
+Region 41
+Region 42
+Region 43
+Region 44
+Region 45
+Region 46
+Region 47
+Region 48
+Region 49
+Region 50
+Region 51
+Region 52
+Region 53
+Region 54
+Region 55
+Region 56
+Region 57
+Region 58
+Region 59
+Region 60
+Region 61
+Checking row idx 183
+0.0 0.0 0.0
+Checking row idx 184
+0.0 0.0 0.0
+Region 62
+Region 63
+Region 64
+Region 65
+Region 66
+Region 67
+Region 68
+Region 69
+Region 70
+Region 71
+Region 72
+Region 73
+Region 74
+Region 75
+Checking row idx 301
+0.0 0.0 0.0
+Checking row idx 303
+0.0 0.0 0.0
+Checking row idx 304
+0.0 0.0 0.0
+Region 76
+Checking row idx 280
+0.0 0.0 0.0
+Checking row idx 281
+0.0 0.0 0.0
+Checking row idx 292
+0.0 0.0 0.0
+Checking row idx 302
+0.0 0.0 0.0
+Region 77
+Checking row idx 293
+0.0 0.0 0.0
+Region 78
+Region 79
+Region 80
+Region 81
+Region 82
+Region 83
+Region 84
+Region 85
+Region 86
+Region 87
+Region 88
+Checking row idx 22
+0.0 0.0 0.0
+Checking row idx 23
+0.0 0.0 0.0
+Checking row idx 44
+0.0 0.0 0.0
+Region 89
+Checking row idx 0
+0.0 0.0 0.0
+Checking row idx 162
+0.0 0.0 0.0
+Checking row idx 201
+0.0 0.0 0.0
+Checking row idx 310
+0.0 0.0 0.0
+Checking row idx 311
+0.0 0.0 0.0
+Checking row idx 312
+0.0 0.0 0.0
+Checking row idx 313
+0.0 0.0 0.0
+Checking row idx 314
+0.0 0.0 0.0
+Checking row idx 315
+0.0 0.0 0.0
+Checking row idx 316
+0.0 0.0 0.0
+Checking row idx 317
+0.0 0.0 0.0
+Checking row idx 318
+0.0 0.0 0.0
+Checking row idx 319
+0.0 0.0 0.0
+Region 90
+Checking row idx 143
+0.0 0.0 0.0
+Checking row idx 156
+0.0 0.0 0.0
+Checking row idx 297
+0.0 0.0 0.0
+Checking row idx 320
+0.0 0.0 0.0
+Checking row idx 321
+0.0 0.0 0.0
+Checking row idx 322
+0.0 0.0 0.0
+Region 91
+Checking row idx 175
+0.0 0.0 0.0
+Checking row idx 234
+0.0 0.0 0.0
+Checking row idx 239
+0.0 0.0 0.0
+Checking row idx 300
+0.0 0.0 0.0
+Region 92
+Region 93
+Region 94
+Region 95
+Region 96
+Region 97
+Region 98
+Region 99
+Region 100
+Region 101
+Checking row idx 117
+0.0 0.0 0.0
+Region 102
+Checking row idx 7
+0.0 0.0 0.0
+Checking row idx 200
+0.0 0.0 0.0
+Checking row idx 203
+0.0 0.0 0.0
+Region 103
+Checking row idx 52
+0.0 0.0 0.0
+Checking row idx 84
+0.0 0.0 0.0
+Checking row idx 85
+0.0 0.0 0.0
+Checking row idx 86
+0.0 0.0 0.0
+Checking row idx 88
+0.0 0.0 0.0
+Checking row idx 89
+0.0 0.0 0.0
+Checking row idx 90
+0.0 0.0 0.0
+Checking row idx 170
+0.0 0.0 0.0
+Checking row idx 195
+0.0 0.0 0.0
+Checking row idx 196
+0.0 0.0 0.0
+Checking row idx 309
+0.0 0.0 0.0
+Region 104
+Checking row idx 152
+0.0 1.0 0.0
+Region 105
+Checking row idx 269
+0.0 0.0 0.0
+Checking row idx 306
+0.0 0.0 0.0
+Region 106
+Checking row idx 37
+1.0 0.0 0.0
+Slow: 37 (parking)
+0.0 0.0 0.0
+Region 107
+Checking row idx 36
+0.0 0.0 0.0
+Checking row idx 38
+0.0 0.0 0.0
+Checking row idx 39
+0.0 0.0 0.0
+Checking row idx 240
+0.0 0.0 0.0
+Region 108
+Region 109
+Checking row idx 42
+0.0 0.0 0.0
+Region 110
+Region 111
+Region 112
+Region 113
+Region 114
+Region 115
+Checking row idx 56
+0.0 0.0 0.0
+Checking row idx 176
+0.0 0.0 0.0
+Checking row idx 177
+0.0 0.0 0.0
+Checking row idx 247
+0.0 0.0 0.0
+Region 116
+Checking row idx 18
+0.0 0.0 0.0
+Checking row idx 19
+0.0 0.0 0.0
+Checking row idx 197
+0.0 0.0 0.0
+Checking row idx 198
+0.0 0.0 0.0
+Checking row idx 199
+0.0 0.0 0.0
+Region 117
+Checking row idx 50
+0.0 0.0 0.0
+Checking row idx 51
+0.0 0.0 0.0
+Checking row idx 83
+0.0 0.0 0.0
+Checking row idx 87
+0.0 0.0 0.0
+Region 118
+Region 119
+Checking row idx 244
+0.0 0.0 0.0
+Region 120
+Region 121
+Checking row idx 40
+0.0 0.0 1.0
+Rapid: 40 (parking)
+0.0 0.0 0.0
+Checking row idx 43
+0.0 0.0 0.0
+Checking row idx 241
+0.0 0.0 0.0
+Checking row idx 242
+0.0 0.0 0.0
+Region 122
+Region 123
+Checking row idx 41
+0.0 0.0 0.0
+Region 124
+Region 125
+Region 126
+Region 127
+Region 128
+Region 129
+Checking row idx 57
+0.0 0.0 0.0
+Checking row idx 81
+0.0 0.0 0.0
+Checking row idx 96
+0.0 0.0 0.0
+Region 130
+Region 131
+Region 132
+Region 133
+Region 134
+Checking row idx 148
+0.0 0.0 0.0
+Region 135
+Region 136
+Region 137
+Region 138
+Region 139
+Region 140
+Region 141
+Region 142
+Region 143
+Checking row idx 202
+0.0 0.0 0.0
+Checking row idx 308
+0.0 0.0 0.0
+Region 144
+Checking row idx 174
+0.0 0.0 0.0
+Region 145
+Checking row idx 8
+0.0 0.0 0.0
+Region 146
+Checking row idx 134
+0.0 0.0 0.0
+Checking row idx 205
+0.0 0.0 0.0
+Checking row idx 206
+0.0 0.0 0.0
+Checking row idx 249
+0.0 0.0 0.0
+Checking row idx 267
+0.0 0.0 0.0
+Region 147
+Checking row idx 161
+0.0 0.0 0.0
+Region 148
+Checking row idx 235
+0.0 0.0 0.0
+Region 149
+Checking row idx 147
+0.0 0.0 0.0
+Region 150
+Region 151
+Region 152
+Region 153
+Region 154
+Region 155
+Region 156
+Checking row idx 95
+1.0 0.0 0.0
+Slow: 95 (parking)
+0.0 0.0 0.0
+Region 157
+Checking row idx 149
+0.0 0.0 0.0
+Region 158
+Region 159
+Region 160
+Checking row idx 180
+0.0 0.0 0.0
+Region 161
+Checking row idx 179
+0.0 0.0 0.0
+Region 162
+Checking row idx 191
+0.0 0.0 0.0
+Region 163
+Region 164
+Checking row idx 237
+1.0 0.0 0.0
+Slow: 237 (parking)
+0.0 0.0 0.0
+Region 165
+Region 166
+Region 167
+Region 168
+Region 169
+Region 170
+Region 171
+Checking row idx 12
+0.0 2.0 0.0
+Fast: 12 (parking)
+0.0 1.0 0.0
+Checking row idx 178
+0.0 1.0 0.0
+Fast: 178 (parking)
+0.0 0.0 0.0
+Checking row idx 188
+0.0 0.0 0.0
+Checking row idx 189
+0.0 0.0 0.0
+Region 172
+Checking row idx 232
+0.0 0.0 0.0
+Checking row idx 295
+0.0 0.0 0.0
+Checking row idx 296
+0.0 0.0 0.0
+Region 173
+Region 174
+Region 175
+Checking row idx 284
+2.0 0.0 0.0
+Slow: 284 (parking)
+1.0 0.0 0.0
+Checking row idx 285
+1.0 0.0 0.0
+Slow: 285 (parking)
+0.0 0.0 0.0
+Checking row idx 286
+0.0 0.0 0.0
+Checking row idx 287
+0.0 0.0 0.0
+Checking row idx 288
+0.0 0.0 0.0
+Checking row idx 289
+0.0 0.0 0.0
+Region 176
+Checking row idx 6
+0.0 0.0 0.0
+Checking row idx 58
+0.0 0.0 0.0
+Checking row idx 59
+0.0 0.0 0.0
+Checking row idx 60
+0.0 0.0 0.0
+Checking row idx 61
+0.0 0.0 0.0
+Checking row idx 62
+0.0 0.0 0.0
+Checking row idx 76
+0.0 0.0 0.0
+Checking row idx 125
+0.0 0.0 0.0
+Checking row idx 126
+0.0 0.0 0.0
+Region 177
+Checking row idx 169
+0.0 0.0 0.0
+Region 178
+Checking row idx 291
+0.0 0.0 0.0
+Region 179
+Region 180
+Region 181
+Region 182
+Region 183
+Region 184
+Checking row idx 34
+0.0 0.0 0.0
+Checking row idx 97
+0.0 0.0 0.0
+Region 185
+Checking row idx 79
+0.0 7.0 0.0
+Fast: 79 (parking)
+0.0 6.0 0.0
+Checking row idx 80
+0.0 6.0 0.0
+Fast: 80 (parking)
+0.0 5.0 0.0
+Checking row idx 130
+0.0 5.0 0.0
+Fast: 130 (parking)
+0.0 4.0 0.0
+Checking row idx 133
+0.0 4.0 0.0
+Fast: 133 (parking)
+0.0 3.0 0.0
+Checking row idx 146
+0.0 3.0 0.0
+Fast: 146 (parking)
+0.0 2.0 0.0
+Checking row idx 185
+0.0 2.0 0.0
+Fast: 185 (parking)
+0.0 1.0 0.0
+Checking row idx 258
+0.0 1.0 0.0
+Fast: 258 (parking)
+0.0 0.0 0.0
+Checking row idx 323
+0.0 0.0 0.0
+Region 186
+Checking row idx 15
+0.0 3.0 0.0
+Fast: 15 (parking)
+0.0 2.0 0.0
+Checking row idx 216
+0.0 2.0 0.0
+Fast: 216 (parking)
+0.0 1.0 0.0
+Checking row idx 217
+0.0 1.0 0.0
+Fast: 217 (parking)
+0.0 0.0 0.0
+Checking row idx 218
+0.0 0.0 0.0
+Checking row idx 219
+0.0 0.0 0.0
+Checking row idx 220
+0.0 0.0 0.0
+Checking row idx 221
+0.0 0.0 0.0
+Checking row idx 222
+0.0 0.0 0.0
+Checking row idx 223
+0.0 0.0 0.0
+Checking row idx 224
+0.0 0.0 0.0
+Checking row idx 225
+0.0 0.0 0.0
+Checking row idx 226
+0.0 0.0 0.0
+Checking row idx 227
+0.0 0.0 0.0
+Checking row idx 230
+0.0 0.0 0.0
+Checking row idx 231
+0.0 0.0 0.0
+Region 187
+Checking row idx 150
+0.0 0.0 0.0
+Checking row idx 214
+0.0 0.0 0.0
+Checking row idx 228
+0.0 0.0 0.0
+Checking row idx 257
+0.0 0.0 0.0
+Region 188
+Checking row idx 45
+0.0 0.0 0.0
+Checking row idx 229
+0.0 0.0 0.0
+Region 189
+Checking row idx 151
+0.0 0.0 0.0
+Region 190
+Region 191
+Checking row idx 13
+0.0 0.0 0.0
+Checking row idx 155
+0.0 0.0 0.0
+Checking row idx 255
+0.0 0.0 0.0
+Region 192
+Checking row idx 207
+0.0 0.0 0.0
+Checking row idx 208
+0.0 0.0 0.0
+Checking row idx 254
+0.0 0.0 0.0
+Region 193
+Region 194
+Region 195
+Region 196
+Region 197
+Region 198
+Checking row idx 5
+0.0 0.0 0.0
+Checking row idx 98
+0.0 0.0 0.0
+Region 199
+Checking row idx 29
+0.0 0.0 0.0
+Checking row idx 47
+0.0 0.0 0.0
+Checking row idx 65
+0.0 0.0 0.0
+Checking row idx 70
+0.0 0.0 0.0
+Checking row idx 71
+0.0 0.0 0.0
+Checking row idx 72
+0.0 0.0 0.0
+Checking row idx 91
+0.0 0.0 0.0
+Checking row idx 94
+0.0 0.0 0.0
+Checking row idx 119
+0.0 0.0 0.0
+Checking row idx 120
+0.0 0.0 0.0
+Checking row idx 122
+0.0 0.0 0.0
+Checking row idx 123
+0.0 0.0 0.0
+Checking row idx 131
+0.0 0.0 0.0
+Region 200
+Checking row idx 4
+0.0 1.0 0.0
+Fast: 4 (fuel)
+Checking row idx 14
+0.0 0.0 0.0
+Checking row idx 17
+0.0 0.0 0.0
+Checking row idx 33
+0.0 0.0 0.0
+Checking row idx 63
+0.0 0.0 0.0
+Checking row idx 64
+0.0 0.0 0.0
+Checking row idx 66
+0.0 0.0 0.0
+Checking row idx 103
+0.0 0.0 0.0
+Checking row idx 104
+0.0 0.0 0.0
+Checking row idx 105
+0.0 0.0 0.0
+Checking row idx 144
+0.0 0.0 0.0
+Checking row idx 190
+0.0 0.0 0.0
+Checking row idx 209
+0.0 0.0 0.0
+Checking row idx 210
+0.0 0.0 0.0
+Checking row idx 211
+0.0 0.0 0.0
+Checking row idx 212
+0.0 0.0 0.0
+Checking row idx 215
+0.0 0.0 0.0
+Checking row idx 324
+0.0 0.0 0.0
+Region 201
+Checking row idx 75
+0.0 0.0 0.0
+Checking row idx 166
+0.0 0.0 0.0
+Checking row idx 238
+0.0 0.0 0.0
+Region 202
+Checking row idx 164
+0.0 0.0 0.0
+Checking row idx 165
+0.0 0.0 0.0
+Checking row idx 173
+0.0 0.0 0.0
+Region 203
+Checking row idx 92
+0.0 0.0 0.0
+Checking row idx 256
+0.0 0.0 0.0
+Region 204
+Region 205
+Checking row idx 187
+0.0 0.0 0.0
+Checking row idx 283
+0.0 0.0 0.0
+Region 206
+Checking row idx 261
+0.0 0.0 0.0
+Region 207
+Region 208
+Region 209
+Region 210
+Region 211
+Region 212
+Region 213
+Checking row idx 49
+6.0 1.0 0.0
+Slow: 49 (parking)
+5.0 1.0 0.0
+Checking row idx 67
+5.0 1.0 0.0
+Slow: 67 (parking)
+4.0 1.0 0.0
+Checking row idx 82
+4.0 1.0 0.0
+Slow: 82 (parking)
+3.0 1.0 0.0
+Checking row idx 118
+3.0 1.0 0.0
+Slow: 118 (parking)
+2.0 1.0 0.0
+Checking row idx 121
+2.0 1.0 0.0
+Slow: 121 (parking)
+1.0 1.0 0.0
+Checking row idx 163
+1.0 1.0 0.0
+Slow: 163 (parking)
+0.0 1.0 0.0
+Checking row idx 204
+0.0 1.0 0.0
+Fast: 204 (parking)
+0.0 0.0 0.0
+Region 214
+Checking row idx 10
+0.0 0.0 0.0
+Checking row idx 16
+0.0 0.0 0.0
+Checking row idx 30
+0.0 0.0 0.0
+Checking row idx 32
+0.0 0.0 0.0
+Checking row idx 68
+0.0 0.0 0.0
+Checking row idx 129
+0.0 0.0 0.0
+Checking row idx 213
+0.0 0.0 0.0
+Checking row idx 282
+0.0 0.0 0.0
+Checking row idx 290
+0.0 0.0 0.0
+Region 215
+Checking row idx 31
+0.0 0.0 0.0
+Checking row idx 35
+0.0 0.0 0.0
+Checking row idx 77
+0.0 0.0 0.0
+Checking row idx 78
+0.0 0.0 0.0
+Checking row idx 168
+0.0 0.0 0.0
+Region 216
+Checking row idx 93
+0.0 0.0 0.0
+Region 217
+Checking row idx 109
+0.0 0.0 0.0
+Checking row idx 110
+0.0 0.0 0.0
+Region 218
+Region 219
+Region 220
+Region 221
+Region 222
+Region 223
+Region 224
+Region 225
+Region 226
+Region 227
+Region 228
+Checking row idx 3
+0.0 0.0 0.0
+Checking row idx 20
+0.0 0.0 0.0
+Checking row idx 21
+0.0 0.0 0.0
+Checking row idx 24
+0.0 0.0 0.0
+Checking row idx 54
+0.0 0.0 0.0
+Checking row idx 74
+0.0 0.0 0.0
+Checking row idx 99
+0.0 0.0 0.0
+Checking row idx 101
+0.0 0.0 0.0
+Checking row idx 102
+0.0 0.0 0.0
+Checking row idx 141
+0.0 0.0 0.0
+Region 229
+Checking row idx 53
+0.0 0.0 0.0
+Checking row idx 55
+0.0 0.0 0.0
+Checking row idx 100
+0.0 0.0 0.0
+Checking row idx 192
+0.0 0.0 0.0
+Checking row idx 233
+0.0 0.0 0.0
+Region 230
+Checking row idx 171
+0.0 0.0 0.0
+Checking row idx 172
+0.0 0.0 0.0
+Checking row idx 246
+0.0 0.0 0.0
+Checking row idx 248
+0.0 0.0 0.0
+Checking row idx 264
+0.0 0.0 0.0
+Checking row idx 265
+0.0 0.0 0.0
+Region 231
+Region 232
+Region 233
+Checking row idx 107
+0.0 0.0 0.0
+Checking row idx 124
+0.0 0.0 0.0
+Region 234
+Checking row idx 112
+0.0 0.0 0.0
+Region 235
+Region 236
+Region 237
+Region 238
+Region 239
+Region 240
+Region 241
+Region 242
+Checking row idx 48
+0.0 0.0 0.0
+Region 243
+Region 244
+Region 245
+Region 246
+Checking row idx 167
+0.0 0.0 0.0
+Checking row idx 236
+0.0 0.0 0.0
+Region 247
+Checking row idx 106
+0.0 0.0 0.0
+Checking row idx 108
+0.0 0.0 0.0
+Checking row idx 251
+0.0 0.0 0.0
+Checking row idx 279
+0.0 0.0 0.0
+Region 248
+Checking row idx 11
+0.0 0.0 0.0
+Region 249
+Checking row idx 111
+0.0 0.0 0.0
+Region 250
+Region 251
+Region 252
+Region 253
+Region 254
+Region 255
+Region 256
+Region 257
+Region 258
+Region 259
+Region 260
+Region 261
+Region 262
+Region 263
+Region 264
+Region 265
+Region 266
+Region 267
+Region 268
+Region 269
+Region 270
+Region 271
+Region 272
+Checking row idx 158
+0.0 0.0 0.0
+Region 273
+Region 274
+Region 275
+Checking row idx 243
+0.0 0.0 0.0
+Region 276
+Region 277
+Region 278
+Region 279
+Region 280
+Region 281
+Region 282
+Region 283
+Region 284
+Region 285
+Region 286
+Checking row idx 157
+0.0 0.0 0.0
+Region 287
+Checking row idx 260
+0.0 0.0 0.0
+Checking row idx 272
+0.0 0.0 0.0
+Checking row idx 273
+0.0 0.0 0.0
+Checking row idx 274
+0.0 0.0 0.0
+Checking row idx 275
+0.0 0.0 0.0
+Checking row idx 277
+0.0 0.0 0.0
+Checking row idx 278
+0.0 0.0 0.0
+Region 288
+Checking row idx 276
+0.0 0.0 0.0
+Region 289
+Region 290
+Checking row idx 245
+0.0 0.0 0.0
+Region 291
+Checking row idx 116
+0.0 0.0 0.0
+Region 292
+Region 293
+Region 294
+Region 295
+Region 296
+Region 297
+Region 298
+Region 299
+Checking row idx 9
+0.0 0.0 0.0
+Region 300
+Region 301
+Region 302
+Region 303
+Region 304
+Region 305
+Region 306
+Region 307
+Region 308
+Region 309
+Region 310
+Region 311
+Region 312
+Region 313
+Region 314
+Region 315
+Region 316
+Checking row idx 193
+0.0 0.0 0.0
+Checking row idx 194
+0.0 0.0 0.0
+Checking row idx 252
+0.0 0.0 0.0
+Region 317
+Region 318
+Region 319
+Region 320
+Region 321
+Region 322
+Region 323
+Region 324
+Region 325
+Region 326
+Region 327
+Checking row idx 142
+0.0 0.0 0.0
+Region 328
+Checking row idx 2
+0.0 0.0 0.0
+Checking row idx 159
+0.0 0.0 0.0
+Region 329
+Region 330
+Region 331
+Checking row idx 114
+0.0 0.0 0.0
+Region 332
+Region 333
+Region 334
+Region 335
+Region 336
+Region 337
+Region 338
+Region 339
+Region 340
+Region 341
+Region 342
+Checking row idx 135
+0.0 0.0 0.0
+Region 343
+Checking row idx 160
+0.0 0.0 0.0
+Checking row idx 250
+0.0 0.0 0.0
+Checking row idx 253
+0.0 0.0 0.0
+Region 344
+Region 345
+Checking row idx 113
+0.0 0.0 0.0
+Checking row idx 115
+0.0 0.0 0.0
+Region 346
+Region 347
+Region 348
+Region 349
+Region 350
+Region 351
+Region 352
+Region 353
+Region 354
+Region 355
+Checking row idx 73
+0.0 0.0 1.0
+Region 356
+Checking row idx 136
+0.0 0.0 0.0
+Region 357
+Region 358
+Region 359
+Region 360
+Region 361
+Region 362
+Region 363
+Region 364
+Region 365
+Region 366
+Region 367
+Region 368
+Region 369
+Checking row idx 25
+0.0 0.0 0.0
+Region 370
+Region 371
+Region 372
+Region 373
+Region 374
+Region 375
+Region 376
+Region 377
+Region 378
+Region 379
+Region 380
+Region 381
+Region 382
+Checking row idx 69
+0.0 0.0 0.0
+Region 383
+Region 384
+Region 385
+Checking row idx 263
+0.0 0.0 0.0
+Region 386
+Region 387
+Region 388
+Region 389
+Region 390
+Region 391
+Region 392
+Region 393
+Region 394
+Region 395
+Region 396
+Region 397
+Checking row idx 132
+0.0 0.0 0.0
+Region 398
+Region 399
+Checking row idx 27
+0.0 0.0 0.0
+Checking row idx 262
+0.0 0.0 0.0
+Region 400
+Checking row idx 28
+0.0 0.0 0.0
+Checking row idx 127
+0.0 0.0 0.0
+Checking row idx 128
+0.0 0.0 0.0
+Region 401
+Region 402
+Region 403
+Region 404
+Region 405
+Region 406
+Region 407
+Region 408
+Region 409
+Region 410
+Region 411
+Region 412
+Checking row idx 1
+0.0 0.0 0.0
+Region 413
+Region 414
+Region 415
+Region 416
+Region 417
+Region 418
+Region 419
+Region 420
+Region 421
+Region 422
+Region 423
+Region 424
+Region 425
+Region 426
+Region 427
+Region 428
+Region 429
+Region 430
+Region 431
+Region 432
+Region 433
+Region 434
+Year 4
+Region 1
+Region 2
+Region 3
+Region 4
+Region 5
+Region 6
+Region 7
+Region 8
+Region 9
+Region 10
+Region 11
+Region 12
+Region 13
+Region 14
+Region 15
+Region 16
+Region 17
+Region 18
+Region 19
+Region 20
+Region 21
+Region 22
+Region 23
+Region 24
+Region 25
+Region 26
+Region 27
+Region 28
+Region 29
+Region 30
+Region 31
+Region 32
+Region 33
+Region 34
+Region 35
+Region 36
+Region 37
+Region 38
+Region 39
+Region 40
+Region 41
+Region 42
+Region 43
+Region 44
+Region 45
+Region 46
+Region 47
+Region 48
+Region 49
+Region 50
+Region 51
+Region 52
+Region 53
+Region 54
+Region 55
+Region 56
+Region 57
+Region 58
+Region 59
+Region 60
+Region 61
+Checking row idx 183
+0.0 0.0 0.0
+Checking row idx 184
+0.0 0.0 0.0
+Region 62
+Region 63
+Region 64
+Region 65
+Region 66
+Region 67
+Region 68
+Region 69
+Region 70
+Region 71
+Region 72
+Region 73
+Region 74
+Region 75
+Checking row idx 301
+0.0 0.0 0.0
+Checking row idx 303
+0.0 0.0 0.0
+Checking row idx 304
+0.0 0.0 0.0
+Region 76
+Checking row idx 280
+0.0 0.0 0.0
+Checking row idx 281
+0.0 0.0 0.0
+Checking row idx 292
+0.0 0.0 0.0
+Checking row idx 302
+0.0 0.0 0.0
+Region 77
+Checking row idx 293
+0.0 0.0 0.0
+Region 78
+Region 79
+Region 80
+Region 81
+Region 82
+Region 83
+Region 84
+Region 85
+Region 86
+Region 87
+Region 88
+Checking row idx 22
+0.0 0.0 0.0
+Checking row idx 23
+0.0 0.0 0.0
+Checking row idx 44
+0.0 0.0 0.0
+Region 89
+Checking row idx 0
+0.0 0.0 0.0
+Checking row idx 162
+0.0 0.0 0.0
+Checking row idx 201
+0.0 0.0 0.0
+Checking row idx 310
+0.0 0.0 0.0
+Checking row idx 311
+0.0 0.0 0.0
+Checking row idx 312
+0.0 0.0 0.0
+Checking row idx 313
+0.0 0.0 0.0
+Checking row idx 314
+0.0 0.0 0.0
+Checking row idx 315
+0.0 0.0 0.0
+Checking row idx 316
+0.0 0.0 0.0
+Checking row idx 317
+0.0 0.0 0.0
+Checking row idx 318
+0.0 0.0 0.0
+Checking row idx 319
+0.0 0.0 0.0
+Region 90
+Checking row idx 143
+0.0 0.0 0.0
+Checking row idx 156
+0.0 0.0 0.0
+Checking row idx 297
+0.0 0.0 0.0
+Checking row idx 320
+0.0 0.0 0.0
+Checking row idx 321
+0.0 0.0 0.0
+Checking row idx 322
+0.0 0.0 0.0
+Region 91
+Checking row idx 175
+0.0 0.0 0.0
+Checking row idx 234
+0.0 0.0 0.0
+Checking row idx 239
+0.0 0.0 0.0
+Checking row idx 300
+0.0 0.0 0.0
+Region 92
+Region 93
+Region 94
+Region 95
+Region 96
+Region 97
+Region 98
+Region 99
+Region 100
+Region 101
+Checking row idx 117
+0.0 0.0 0.0
+Region 102
+Checking row idx 7
+0.0 0.0 0.0
+Checking row idx 200
+0.0 0.0 0.0
+Checking row idx 203
+0.0 0.0 0.0
+Region 103
+Checking row idx 52
+0.0 0.0 0.0
+Checking row idx 84
+0.0 0.0 0.0
+Checking row idx 85
+0.0 0.0 0.0
+Checking row idx 86
+0.0 0.0 0.0
+Checking row idx 88
+0.0 0.0 0.0
+Checking row idx 89
+0.0 0.0 0.0
+Checking row idx 90
+0.0 0.0 0.0
+Checking row idx 170
+0.0 0.0 0.0
+Checking row idx 195
+0.0 0.0 0.0
+Checking row idx 196
+0.0 0.0 0.0
+Checking row idx 309
+0.0 0.0 0.0
+Region 104
+Checking row idx 152
+0.0 1.0 0.0
+Region 105
+Checking row idx 269
+0.0 0.0 0.0
+Checking row idx 306
+0.0 0.0 0.0
+Region 106
+Checking row idx 37
+0.0 0.0 0.0
+Region 107
+Checking row idx 36
+2.0 2.0 0.0
+Slow: 36 (parking)
+1.0 2.0 0.0
+Checking row idx 38
+1.0 2.0 0.0
+Slow: 38 (parking)
+0.0 2.0 0.0
+Checking row idx 39
+0.0 2.0 0.0
+Fast: 39 (parking)
+0.0 1.0 0.0
+Checking row idx 240
+0.0 1.0 0.0
+Fast: 240 (parking)
+0.0 0.0 0.0
+Region 108
+Region 109
+Checking row idx 42
+0.0 0.0 0.0
+Region 110
+Region 111
+Region 112
+Region 113
+Region 114
+Region 115
+Checking row idx 56
+0.0 0.0 0.0
+Checking row idx 176
+0.0 0.0 0.0
+Checking row idx 177
+0.0 0.0 0.0
+Checking row idx 247
+0.0 0.0 0.0
+Region 116
+Checking row idx 18
+0.0 0.0 0.0
+Checking row idx 19
+0.0 0.0 0.0
+Checking row idx 197
+0.0 0.0 0.0
+Checking row idx 198
+0.0 0.0 0.0
+Checking row idx 199
+0.0 0.0 0.0
+Region 117
+Checking row idx 50
+0.0 0.0 0.0
+Checking row idx 51
+0.0 0.0 0.0
+Checking row idx 83
+0.0 0.0 0.0
+Checking row idx 87
+0.0 0.0 0.0
+Region 118
+Region 119
+Checking row idx 244
+0.0 1.0 0.0
+Region 120
+Region 121
+Checking row idx 40
+3.0 0.0 0.0
+Region 122
+Region 123
+Checking row idx 41
+0.0 0.0 0.0
+Region 124
+Region 125
+Region 126
+Region 127
+Region 128
+Region 129
+Checking row idx 57
+0.0 0.0 0.0
+Checking row idx 81
+0.0 0.0 0.0
+Checking row idx 96
+0.0 0.0 0.0
+Region 130
+Region 131
+Region 132
+Region 133
+Region 134
+Checking row idx 148
+0.0 0.0 0.0
+Region 135
+Region 136
+Region 137
+Region 138
+Region 139
+Region 140
+Region 141
+Region 142
+Region 143
+Checking row idx 202
+0.0 0.0 0.0
+Checking row idx 308
+0.0 0.0 0.0
+Region 144
+Checking row idx 174
+0.0 0.0 0.0
+Region 145
+Checking row idx 8
+0.0 1.0 0.0
+Region 146
+Checking row idx 134
+0.0 3.0 0.0
+Fast: 134 (parking)
+0.0 2.0 0.0
+Checking row idx 205
+0.0 2.0 0.0
+Fast: 205 (parking)
+0.0 1.0 0.0
+Checking row idx 206
+0.0 1.0 0.0
+Fast: 206 (parking)
+0.0 0.0 0.0
+Checking row idx 249
+0.0 0.0 0.0
+Checking row idx 267
+0.0 0.0 0.0
+Region 147
+Checking row idx 161
+0.0 1.0 0.0
+Fast: 161 (parking)
+0.0 0.0 0.0
+Region 148
+Checking row idx 235
+0.0 1.0 0.0
+Fast: 235 (parking)
+0.0 0.0 0.0
+Region 149
+Checking row idx 147
+0.0 0.0 0.0
+Region 150
+Region 151
+Region 152
+Region 153
+Region 154
+Region 155
+Region 156
+Checking row idx 95
+0.0 0.0 0.0
+Region 157
+Checking row idx 149
+0.0 1.0 0.0
+Fast: 149 (parking)
+0.0 0.0 0.0
+Region 158
+Region 159
+Region 160
+Checking row idx 180
+0.0 0.0 0.0
+Region 161
+Checking row idx 179
+2.0 0.0 0.0
+Region 162
+Checking row idx 191
+0.0 0.0 0.0
+Region 163
+Region 164
+Checking row idx 237
+0.0 0.0 0.0
+Region 165
+Region 166
+Region 167
+Region 168
+Region 169
+Region 170
+Region 171
+Checking row idx 12
+0.0 2.0 0.0
+Region 172
+Checking row idx 232
+0.0 0.0 0.0
+Checking row idx 295
+0.0 0.0 0.0
+Checking row idx 296
+0.0 0.0 0.0
+Region 173
+Region 174
+Region 175
+Checking row idx 284
+4.0 0.0 0.0
+Region 176
+Checking row idx 6
+0.0 0.0 0.0
+Checking row idx 58
+0.0 0.0 0.0
+Checking row idx 59
+0.0 0.0 0.0
+Checking row idx 60
+0.0 0.0 0.0
+Checking row idx 61
+0.0 0.0 0.0
+Checking row idx 62
+0.0 0.0 0.0
+Checking row idx 76
+0.0 0.0 0.0
+Checking row idx 125
+0.0 0.0 0.0
+Checking row idx 126
+0.0 0.0 0.0
+Region 177
+Checking row idx 169
+0.0 0.0 0.0
+Region 178
+Checking row idx 291
+0.0 0.0 0.0
+Region 179
+Region 180
+Region 181
+Region 182
+Region 183
+Region 184
+Checking row idx 34
+0.0 0.0 2.0
+Rapid: 34 (parking)
+0.0 0.0 1.0
+Checking row idx 97
+0.0 0.0 1.0
+Rapid: 97 (parking)
+0.0 0.0 0.0
+Region 185
+Checking row idx 79
+0.0 0.0 0.0
+Region 186
+Checking row idx 15
+0.0 0.0 0.0
+Region 187
+Checking row idx 150
+0.0 0.0 0.0
+Checking row idx 214
+0.0 0.0 0.0
+Checking row idx 228
+0.0 0.0 0.0
+Checking row idx 257
+0.0 0.0 0.0
+Region 188
+Checking row idx 45
+0.0 0.0 0.0
+Checking row idx 229
+0.0 0.0 0.0
+Region 189
+Checking row idx 151
+0.0 0.0 0.0
+Region 190
+Region 191
+Checking row idx 13
+0.0 0.0 0.0
+Checking row idx 155
+0.0 0.0 0.0
+Checking row idx 255
+0.0 0.0 0.0
+Region 192
+Checking row idx 207
+0.0 0.0 0.0
+Checking row idx 208
+0.0 0.0 0.0
+Checking row idx 254
+0.0 0.0 0.0
+Region 193
+Region 194
+Region 195
+Region 196
+Region 197
+Region 198
+Checking row idx 5
+0.0 0.0 0.0
+Checking row idx 98
+0.0 0.0 0.0
+Region 199
+Checking row idx 29
+0.0 0.0 0.0
+Checking row idx 47
+0.0 0.0 0.0
+Checking row idx 65
+0.0 0.0 0.0
+Checking row idx 70
+0.0 0.0 0.0
+Checking row idx 71
+0.0 0.0 0.0
+Checking row idx 72
+0.0 0.0 0.0
+Checking row idx 91
+0.0 0.0 0.0
+Checking row idx 94
+0.0 0.0 0.0
+Checking row idx 119
+0.0 0.0 0.0
+Checking row idx 120
+0.0 0.0 0.0
+Checking row idx 122
+0.0 0.0 0.0
+Checking row idx 123
+0.0 0.0 0.0
+Checking row idx 131
+0.0 0.0 0.0
+Region 200
+Checking row idx 4
+0.0 0.0 0.0
+Region 201
+Checking row idx 75
+0.0 3.0 0.0
+Fast: 75 (parking)
+0.0 2.0 0.0
+Checking row idx 166
+0.0 2.0 0.0
+Fast: 166 (parking)
+0.0 1.0 0.0
+Checking row idx 238
+0.0 1.0 0.0
+Fast: 238 (parking)
+0.0 0.0 0.0
+Region 202
+Checking row idx 164
+0.0 0.0 0.0
+Checking row idx 165
+0.0 0.0 0.0
+Checking row idx 173
+0.0 0.0 0.0
+Region 203
+Checking row idx 92
+0.0 0.0 0.0
+Checking row idx 256
+0.0 0.0 0.0
+Region 204
+Region 205
+Checking row idx 187
+0.0 0.0 0.0
+Checking row idx 283
+0.0 0.0 0.0
+Region 206
+Checking row idx 261
+0.0 0.0 0.0
+Region 207
+Region 208
+Region 209
+Region 210
+Region 211
+Region 212
+Region 213
+Checking row idx 49
+0.0 0.0 0.0
+Region 214
+Checking row idx 10
+9.0 0.0 0.0
+Slow: 10 (parking)
+8.0 0.0 0.0
+Checking row idx 16
+8.0 0.0 0.0
+Slow: 16 (parking)
+7.0 0.0 0.0
+Checking row idx 30
+7.0 0.0 0.0
+Slow: 30 (parking)
+6.0 0.0 0.0
+Checking row idx 32
+6.0 0.0 0.0
+Slow: 32 (parking)
+5.0 0.0 0.0
+Checking row idx 68
+5.0 0.0 0.0
+Slow: 68 (parking)
+4.0 0.0 0.0
+Checking row idx 129
+4.0 0.0 0.0
+Slow: 129 (parking)
+3.0 0.0 0.0
+Checking row idx 213
+3.0 0.0 0.0
+Slow: 213 (parking)
+2.0 0.0 0.0
+Checking row idx 282
+2.0 0.0 0.0
+Slow: 282 (parking)
+1.0 0.0 0.0
+Checking row idx 290
+1.0 0.0 0.0
+Slow: 290 (parking)
+0.0 0.0 0.0
+Region 215
+Checking row idx 31
+0.0 0.0 0.0
+Checking row idx 35
+0.0 0.0 0.0
+Checking row idx 77
+0.0 0.0 0.0
+Checking row idx 78
+0.0 0.0 0.0
+Checking row idx 168
+0.0 0.0 0.0
+Region 216
+Checking row idx 93
+0.0 0.0 0.0
+Region 217
+Checking row idx 109
+0.0 0.0 0.0
+Checking row idx 110
+0.0 0.0 0.0
+Region 218
+Region 219
+Region 220
+Region 221
+Region 222
+Region 223
+Region 224
+Region 225
+Region 226
+Region 227
+Region 228
+Checking row idx 3
+0.0 0.0 0.0
+Checking row idx 20
+0.0 0.0 0.0
+Checking row idx 21
+0.0 0.0 0.0
+Checking row idx 24
+0.0 0.0 0.0
+Checking row idx 54
+0.0 0.0 0.0
+Checking row idx 74
+0.0 0.0 0.0
+Checking row idx 99
+0.0 0.0 0.0
+Checking row idx 101
+0.0 0.0 0.0
+Checking row idx 102
+0.0 0.0 0.0
+Checking row idx 141
+0.0 0.0 0.0
+Region 229
+Checking row idx 53
+0.0 0.0 0.0
+Checking row idx 55
+0.0 0.0 0.0
+Checking row idx 100
+0.0 0.0 0.0
+Checking row idx 192
+0.0 0.0 0.0
+Checking row idx 233
+0.0 0.0 0.0
+Region 230
+Checking row idx 171
+0.0 0.0 0.0
+Checking row idx 172
+0.0 0.0 0.0
+Checking row idx 246
+0.0 0.0 0.0
+Checking row idx 248
+0.0 0.0 0.0
+Checking row idx 264
+0.0 0.0 0.0
+Checking row idx 265
+0.0 0.0 0.0
+Region 231
+Region 232
+Region 233
+Checking row idx 107
+0.0 0.0 0.0
+Checking row idx 124
+0.0 0.0 0.0
+Region 234
+Checking row idx 112
+0.0 0.0 0.0
+Region 235
+Region 236
+Region 237
+Region 238
+Region 239
+Region 240
+Region 241
+Region 242
+Checking row idx 48
+0.0 0.0 0.0
+Region 243
+Region 244
+Region 245
+Region 246
+Checking row idx 167
+0.0 0.0 0.0
+Checking row idx 236
+0.0 0.0 0.0
+Region 247
+Checking row idx 106
+0.0 0.0 0.0
+Checking row idx 108
+0.0 0.0 0.0
+Checking row idx 251
+0.0 0.0 0.0
+Checking row idx 279
+0.0 0.0 0.0
+Region 248
+Checking row idx 11
+0.0 0.0 0.0
+Region 249
+Checking row idx 111
+0.0 0.0 0.0
+Region 250
+Region 251
+Region 252
+Region 253
+Region 254
+Region 255
+Region 256
+Region 257
+Region 258
+Region 259
+Region 260
+Region 261
+Region 262
+Region 263
+Region 264
+Region 265
+Region 266
+Region 267
+Region 268
+Region 269
+Region 270
+Region 271
+Region 272
+Checking row idx 158
+0.0 0.0 0.0
+Region 273
+Region 274
+Region 275
+Checking row idx 243
+0.0 0.0 0.0
+Region 276
+Region 277
+Region 278
+Region 279
+Region 280
+Region 281
+Region 282
+Region 283
+Region 284
+Region 285
+Region 286
+Checking row idx 157
+0.0 0.0 0.0
+Region 287
+Checking row idx 260
+0.0 0.0 0.0
+Checking row idx 272
+0.0 0.0 0.0
+Checking row idx 273
+0.0 0.0 0.0
+Checking row idx 274
+0.0 0.0 0.0
+Checking row idx 275
+0.0 0.0 0.0
+Checking row idx 277
+0.0 0.0 0.0
+Checking row idx 278
+0.0 0.0 0.0
+Region 288
+Checking row idx 276
+0.0 0.0 0.0
+Region 289
+Region 290
+Checking row idx 245
+0.0 0.0 0.0
+Region 291
+Checking row idx 116
+0.0 0.0 0.0
+Region 292
+Region 293
+Region 294
+Region 295
+Region 296
+Region 297
+Region 298
+Region 299
+Checking row idx 9
+0.0 0.0 0.0
+Region 300
+Region 301
+Region 302
+Region 303
+Region 304
+Region 305
+Region 306
+Region 307
+Region 308
+Region 309
+Region 310
+Region 311
+Region 312
+Region 313
+Region 314
+Region 315
+Region 316
+Checking row idx 193
+0.0 0.0 0.0
+Checking row idx 194
+0.0 0.0 0.0
+Checking row idx 252
+0.0 0.0 0.0
+Region 317
+Region 318
+Region 319
+Region 320
+Region 321
+Region 322
+Region 323
+Region 324
+Region 325
+Region 326
+Region 327
+Checking row idx 142
+0.0 0.0 0.0
+Region 328
+Checking row idx 2
+0.0 0.0 0.0
+Checking row idx 159
+0.0 0.0 0.0
+Region 329
+Region 330
+Region 331
+Checking row idx 114
+0.0 0.0 0.0
+Region 332
+Region 333
+Region 334
+Region 335
+Region 336
+Region 337
+Region 338
+Region 339
+Region 340
+Region 341
+Region 342
+Checking row idx 135
+0.0 0.0 0.0
+Region 343
+Checking row idx 160
+0.0 3.0 0.0
+Fast: 160 (parking)
+0.0 2.0 0.0
+Checking row idx 250
+0.0 2.0 0.0
+Fast: 250 (parking)
+0.0 1.0 0.0
+Checking row idx 253
+0.0 1.0 0.0
+Fast: 253 (parking)
+0.0 0.0 0.0
+Region 344
+Region 345
+Checking row idx 113
+0.0 0.0 0.0
+Checking row idx 115
+0.0 0.0 0.0
+Region 346
+Region 347
+Region 348
+Region 349
+Region 350
+Region 351
+Region 352
+Region 353
+Region 354
+Region 355
+Checking row idx 73
+0.0 0.0 0.0
+Region 356
+Checking row idx 136
+0.0 0.0 0.0
+Region 357
+Region 358
+Region 359
+Region 360
+Region 361
+Region 362
+Region 363
+Region 364
+Region 365
+Region 366
+Region 367
+Region 368
+Region 369
+Checking row idx 25
+1.0 0.0 0.0
+Region 370
+Region 371
+Region 372
+Region 373
+Region 374
+Region 375
+Region 376
+Region 377
+Region 378
+Region 379
+Region 380
+Region 381
+Region 382
+Checking row idx 69
+0.0 0.0 0.0
+Region 383
+Region 384
+Region 385
+Checking row idx 263
+0.0 0.0 0.0
+Region 386
+Region 387
+Region 388
+Region 389
+Region 390
+Region 391
+Region 392
+Region 393
+Region 394
+Region 395
+Region 396
+Region 397
+Checking row idx 132
+1.0 0.0 0.0
+Slow: 132 (parking)
+0.0 0.0 0.0
+Region 398
+Region 399
+Checking row idx 27
+0.0 0.0 0.0
+Checking row idx 262
+0.0 0.0 0.0
+Region 400
+Checking row idx 28
+0.0 0.0 0.0
+Checking row idx 127
+0.0 0.0 0.0
+Checking row idx 128
+0.0 0.0 0.0
+Region 401
+Region 402
+Region 403
+Region 404
+Region 405
+Region 406
+Region 407
+Region 408
+Region 409
+Region 410
+Region 411
+Region 412
+Checking row idx 1
+0.0 0.0 0.0
+Region 413
+Region 414
+Region 415
+Region 416
+Region 417
+Region 418
+Region 419
+Region 420
+Region 421
+Region 422
+Region 423
+Region 424
+Region 425
+Region 426
+Region 427
+Region 428
+Region 429
+Region 430
+Region 431
+Region 432
+Region 433
+Region 434

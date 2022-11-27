@@ -4,6 +4,7 @@ import numpy as np
 import gurobipy as gp
 from shapely import wkt
 import sys
+import os
 
 demand_data = pd.read_excel("./data/Demand_data.xlsx")
 demand_data['geometry'] = demand_data['geometry'].apply(wkt.loads)
@@ -42,12 +43,12 @@ demand = np.array([demand_data[period]
                    for period in get_period_names(n_periods)])
 
 # certain adjustable parameters
-max_chargers_per_region = 0
-max_added_chargers = 100
-max_supply_per_region = 100000
-min_avg_distance_from_cc = 500
+max_chargers_per_region = -1
+max_added_chargers = -1
+max_supply_per_region = 75000
+min_avg_distance_from_cc = -1
 POI_importance = 0
-rapid_supply_limit = 0.5
+rapid_supply_limit = 1
 
 time_limit = 60
 MIP_gap = 0.05
@@ -119,13 +120,14 @@ for i in range(n_periods):
     m.addConstr(total_chargers_added_at_region[i] == sum(
         chargers_added_at_region[i]))
 
-    m.addConstr(min_avg_distance_from_cc*sum(total_chargers_added_at_region[i]) <= gp.quicksum(
-        [total_chargers_added_at_region[i][j] * region_distance_from_cc[j] for j in range(n_regions)]))
+    if min_avg_distance_from_cc >= 0:
+        m.addConstr(min_avg_distance_from_cc*sum(total_chargers_added_at_region[i]) <= gp.quicksum(
+            [total_chargers_added_at_region[i][j] * region_distance_from_cc[j] for j in range(n_regions)]))
 
     # m.addConstr(avg_distance_from_cc[i] >= min_avg_distance_from_cc)
     for j in range(n_regions):
         # CONSTRAINT: Maximum number of charging stations in a single region
-        if (max_chargers_per_region > 0):
+        if (max_chargers_per_region >= 0):
             m.addConstr(
                 total_chargers_added_at_region[i][j] <= max_chargers_per_region)
         m.addConstr(
@@ -135,13 +137,14 @@ for i in range(n_periods):
             m.addConstr(capacity_to_neighbors[i][j][k] >= 0)
             # the below constraint is to eliminate pointless, unrealistic two-way exchanges of energy
             # in that it forces one direction to be 0.
-            m.addConstr(
-                capacity_to_neighbors[i][j][k]*capacity_to_neighbors[i][k][j] == 0)
+            if (j != k):
+                m.addConstr(
+                    capacity_to_neighbors[i][j][k]*capacity_to_neighbors[i][k][j] == 0)
 
         # m.addConstr(capacity_kept[i][j] >= 0)
         m.addConstr(capacity_to_neighbors[i][j][j] >= 0)
         # CONSTRAINT: MAX TOTAL ADDED ENERGY IN ONE SQUARE
-        if max_supply_per_region > 0:
+        if max_supply_per_region >= 0:
             m.addConstr(supply[i][j] <= max_supply_per_region)
         m.addConstr(capacity_from_region[i] == sum(capacities[i]))
 
@@ -237,9 +240,130 @@ def print_results():
                 #     f"non-zero stuff at year {i} region {j}, {capacity_from_region[i][j].X} or {capacity_to_neighbors[i][j].X}")
                 # sys.stdout = f
 
-        print(m.getObjective().getValue())
+        print(f"Objective value: {m.getObjective().getValue()}")
 
         sys.stdout = sys.__stdout__
+
+
+def generate_plan():
+    sys.stdout = open("Plan.txt", 'w')
+    # plan_df = pd.DataFrame()
+    # plan_df["Region"] = [1+n for n in range(n_regions)]
+    # for speed_idx, speed in enumerate(charging_capacity.keys()):
+    #     plan_df[f"Year {1} - {speed}"] = chargers_added_at_region[0][speed_idx].X
+    # for i in range(n_periods-1):
+    #     for speed_idx, speed in enumerate(charging_capacity.keys()):
+    #         plan_df[f"Year {i+2} - {speed}"] = chargers_added_at_region[i+1][speed_idx].X - \
+    #             chargers_added_at_region[i][speed_idx].X
+
+    [slow, fast, rapid] = chargers_added_at_region[0].X
+    existing = pd.merge(potential_df, charging_points_df,
+                        on=["Latitude", "Longitude", "grid number"])
+    print(existing)
+    for i in range(n_periods):
+        potential_df["row_idx"] = range(1, len(potential_df)+1)
+        potential_df[f"Year {i+1}"] = ""
+        print(f"Year {i+1}")
+        if i >= 1:
+            [slow, fast, rapid] = chargers_added_at_region[i].X - \
+                chargers_added_at_region[i-1].X
+        for j in range(n_regions):
+            print(f"Region {j+1}")
+            for e_row_index in existing[existing["grid number"] == j+1].transpose():
+                row = existing.iloc[e_row_index].transpose()
+                p_row_index = existing.loc[e_row_index, "row_idx"]
+                print(
+                    f"{p_row_index} is an existing charger ({row['Latitude'], row['Longitude']}")
+                if any([(potential_df.loc[p_row_index, f"Year {k+1}"] != "") for k in range(i+1)]):
+                    break
+                if row["amenity"] == "fuel":
+                    if rapid[j] >= 1:
+                        rapid[j] -= 1
+                        potential_df.loc[p_row_index,
+                                         f"Year {i+1}"] = f"Place rapid charger"
+                        print(f"Rapid: {p_row_index} (fuel)")
+                    elif fast[j] >= 1:
+                        fast[j] -= 1
+                        potential_df.loc[p_row_index,
+                                         f"Year {i+1}"] = f"Place fast charger"
+                        print(f"Fast: {p_row_index} (fuel)")
+                    elif slow[j] >= 1:
+                        slow[j] -= 1
+                        potential_df.loc[p_row_index,
+                                         f"Year {i+1}"] = f"Place slow charger"
+                        print(f"Slow: {p_row_index} (fuel)")
+                    else:
+                        continue
+                elif row["amenity"] == "parking":
+                    if slow[j] >= 1:
+                        slow[j] -= 1
+                        potential_df.loc[p_row_index,
+                                         f"Year {i+1}"] = f"Place slow charger"
+                        print(f"Slow: {p_row_index} (parking)")
+                    elif fast[j] >= 1:
+                        fast[j] -= 1
+                        potential_df.loc[p_row_index,
+                                         f"Year {i+1}"] = f"Place fast charger"
+                        print(f"Fast: {p_row_index} (parking)")
+                    elif rapid[j] >= 1:
+                        rapid[j] -= 1
+                        potential_df.loc[p_row_index,
+                                         f"Year {i+1}"] = f"Place rapid charger"
+                        print(f"Rapid: {p_row_index} (parking)")
+                    else:
+                        continue
+                    print(slow[j], fast[j], rapid[j])
+                else:
+                    continue
+            for row_index in potential_df[potential_df["grid number"] == j+1].transpose():
+                print(f"Checking row idx {row_index}")
+                print(slow[j], fast[j], rapid[j])
+                row = potential_df.iloc[row_index].transpose()
+                if any([(potential_df.loc[row_index, f"Year {k+1}"] != "") for k in range(i+1)]):
+                    break
+                if row["amenity"] == "fuel":
+                    if rapid[j] >= 1:
+                        rapid[j] -= 1
+                        potential_df.loc[row_index,
+                                         f"Year {i+1}"] = f"Place rapid charger"
+                        print(f"Rapid: {row_index} (fuel)")
+                    elif fast[j] >= 1:
+                        fast[j] -= 1
+                        potential_df.loc[row_index,
+                                         f"Year {i+1}"] = f"Place fast charger"
+                        print(f"Fast: {row_index} (fuel)")
+                    elif slow[j] >= 1:
+                        slow[j] -= 1
+                        potential_df.loc[row_index,
+                                         f"Year {i+1}"] = f"Place slow charger"
+                        print(f"Slow: {row_index} (fuel)")
+                    else:
+                        continue
+                elif row["amenity"] == "parking":
+                    if slow[j] >= 1:
+                        slow[j] -= 1
+                        potential_df.loc[row_index,
+                                         f"Year {i+1}"] = f"Place slow charger"
+                        print(f"Slow: {row_index} (parking)")
+                    elif fast[j] >= 1:
+                        fast[j] -= 1
+                        potential_df.loc[row_index,
+                                         f"Year {i+1}"] = f"Place fast charger"
+                        print(f"Fast: {row_index} (parking)")
+                    elif rapid[j] >= 1:
+                        rapid[j] -= 1
+                        potential_df.loc[row_index,
+                                         f"Year {i+1}"] = f"Place rapid charger"
+                        print(f"Rapid: {row_index} (parking)")
+                    else:
+                        continue
+                    print(slow[j], fast[j], rapid[j])
+                else:
+                    continue
+    sys.stdout = sys.__stdout__
+    os.remove('Plan.xlsx')
+    potential_df.to_excel('Plan.xlsx')
+    return
 
 
 def get_supply_diff_dataframe():
