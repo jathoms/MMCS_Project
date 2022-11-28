@@ -6,6 +6,17 @@ from shapely import wkt
 import sys
 import os
 
+# certain adjustable parameters
+max_chargers_per_region = 7
+max_added_chargers = 100
+max_supply_per_region = 80000
+min_avg_distance_from_cc = 3000
+POI_importance = 0.7
+rapid_supply_limit = 0.6
+
+time_limit = 60
+MIP_gap = 0.01
+
 demand_data = pd.read_excel("./data/Demand_data.xlsx")
 demand_data['geometry'] = demand_data['geometry'].apply(wkt.loads)
 interest_points = pd.read_excel("./data/Interest_points.xlsx")
@@ -42,16 +53,6 @@ potential_points_per_region = np.array(
 demand = np.array([demand_data[period]
                    for period in get_period_names(n_periods)])
 
-# certain adjustable parameters
-max_chargers_per_region = 7
-max_added_chargers = 100
-max_supply_per_region = 80000
-min_avg_distance_from_cc = 3000
-POI_importance = 0.7
-rapid_supply_limit = 0.6
-
-time_limit = 60
-MIP_gap = 0.01
 
 m = gp.Model()
 
@@ -220,7 +221,7 @@ def run_model():
 def print_results():
     avg_distance_from_cc = [sum(
         [total_chargers_added_at_region[i][j].X * region_distance_from_cc[j] for j in range(n_regions)])/sum(total_chargers_added_at_region[i].X) for i in range(n_periods)]
-    with open("results.txt", "w") as f:
+    with open("share_log.txt", "w") as f:
         sys.stdout = f
         for i in range(n_periods):
             print('Year: {}'.format(i+1))
@@ -238,16 +239,8 @@ def print_results():
                 int(sum(number_of_chargers_added_year[i].X))))
 
             for j in range(n_regions):
-                # for speed_idx, speed in enumerate(charging_capacity.keys()):
-                #     print(f'{speed}: {capacities[i][speed_idx].X}')
-                # if not (demand[i][j] == 0 and supply[i][j].X == 0):
                 print(
                     f"Region {j}: \n\tDemand: {demand[i][j]} \n\tSupply: {supply[i][j].X}\n\tSupplying {capacity_from_region[i][j].X}kWh/year \n\tSupplying to: {[(k-1, capacity_to_neighbors[i][j][k-1].X) for k in get_neighbors(j, demand_data)]} \n\tSupplied by: {[(k-1, capacity_to_neighbors[i][k-1][j].X) for k in get_neighbors(j, demand_data)]} \n\tKeeping {capacity_to_neighbors[i][j][j].X}")
-                # elif (capacity_from_region[i][j].X > 0) or (any(capacity_to_neighbors[i][j].X > 0)):
-                # sys.stdout = sys.__stdout__
-                # print(
-                #     f"non-zero stuff at year {i} region {j}, {capacity_from_region[i][j].X} or {capacity_to_neighbors[i][j].X}")
-                # sys.stdout = f
 
         print(f"Objective value: {m.getObjective().getValue()}")
 
@@ -255,22 +248,9 @@ def print_results():
 
 
 def generate_plan():
-    sys.stdout = open("Plan.txt", 'w')
-    # plan_df = pd.DataFrame()
-    # plan_df["Region"] = [1+n for n in range(n_regions)]
-    # for speed_idx, speed in enumerate(charging_capacity.keys()):
-    #     plan_df[f"Year {1} - {speed}"] = chargers_added_at_region[0][speed_idx].X
-    # for i in range(n_periods-1):
-    #     for speed_idx, speed in enumerate(charging_capacity.keys()):
-    #         plan_df[f"Year {i+2} - {speed}"] = chargers_added_at_region[i+1][speed_idx].X - \
-    #             chargers_added_at_region[i][speed_idx].X
-
+    sys.stdout = open("Plan_log.txt", 'w')
     [slow, fast, rapid] = chargers_added_at_region[0].X
-    existing = pd.merge(potential_df, charging_points_df,
-                        on=["Latitude", "Longitude", "grid number"])
-    print(existing)
     for i in range(n_periods):
-        potential_df["row_idx"] = range(1, len(potential_df)+1)
         potential_df[f"Year {i+1}"] = ""
         print(f"Year {i+1}")
         if i >= 1:
@@ -278,52 +258,6 @@ def generate_plan():
                 chargers_added_at_region[i-1].X
         for j in range(n_regions):
             print(f"Region {j+1}")
-            for e_row_index in existing[existing["grid number"] == j+1].transpose():
-                row = existing.iloc[e_row_index].transpose()
-                p_row_index = existing.loc[e_row_index, "row_idx"]
-                print(
-                    f"{p_row_index} is an existing charger ({row['Latitude'], row['Longitude']}")
-                if any([(potential_df.loc[p_row_index, f"Year {k+1}"] != "") for k in range(i+1)]):
-                    break
-                if row["amenity"] == "fuel":
-                    if rapid[j] >= 1:
-                        rapid[j] -= 1
-                        potential_df.loc[p_row_index,
-                                         f"Year {i+1}"] = f"Place rapid charger"
-                        print(f"Rapid: {p_row_index} (fuel)")
-                    elif fast[j] >= 1:
-                        fast[j] -= 1
-                        potential_df.loc[p_row_index,
-                                         f"Year {i+1}"] = f"Place fast charger"
-                        print(f"Fast: {p_row_index} (fuel)")
-                    elif slow[j] >= 1:
-                        slow[j] -= 1
-                        potential_df.loc[p_row_index,
-                                         f"Year {i+1}"] = f"Place slow charger"
-                        print(f"Slow: {p_row_index} (fuel)")
-                    else:
-                        continue
-                elif row["amenity"] == "parking":
-                    if slow[j] >= 1:
-                        slow[j] -= 1
-                        potential_df.loc[p_row_index,
-                                         f"Year {i+1}"] = f"Place slow charger"
-                        print(f"Slow: {p_row_index} (parking)")
-                    elif fast[j] >= 1:
-                        fast[j] -= 1
-                        potential_df.loc[p_row_index,
-                                         f"Year {i+1}"] = f"Place fast charger"
-                        print(f"Fast: {p_row_index} (parking)")
-                    elif rapid[j] >= 1:
-                        rapid[j] -= 1
-                        potential_df.loc[p_row_index,
-                                         f"Year {i+1}"] = f"Place rapid charger"
-                        print(f"Rapid: {p_row_index} (parking)")
-                    else:
-                        continue
-                    print(slow[j], fast[j], rapid[j])
-                else:
-                    continue
             for row_index in potential_df[potential_df["grid number"] == j+1].transpose():
                 print(f"Checking row idx {row_index}")
                 print(slow[j], fast[j], rapid[j])
@@ -381,9 +315,4 @@ def get_supply_diff_dataframe():
         demand_data["Supply_{}".format(i)] = supply[i].X
         demand_data["Diff_{}".format(i)] = [abs(min(0, x))
                                             for x in (diff[i].X)]
-        # demand_data["Diff_{}".format(i)] = [abs(x)
-        #                                     for x in (diff[i].X)]
     return demand_data
-
-
-# get_new_dataframe(d, p)
